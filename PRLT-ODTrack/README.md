@@ -2,7 +2,7 @@
 
 Implementation of **Physics-Inspired Reliability Learning for Robust Thermal Infrared Object Tracking** with the ODTrack-B backbone. Physics-Inspired Thermal Reconstruction (PTR), Uncertainty-Aware Reliability Modeling (URM), and Progressive Capped Reliability Reweighting (PRR) are used during training. Inference uses the ODTrack backbone, temporal tokens, and tracking head.
 
-🚀 **Model and Test Results**
+🚀 **Test Results and Model**
 
 [Test Results](https://pan.baidu.com/s/1WdlHER9aRDvi5YWasD93aA) [Trained Model](https://pan.baidu.com/s/14aMNAEx-5-XR9ENmrpkCHw)  (Baidu Netdisk, access code `PRLT`)
 
