@@ -1,0 +1,549 @@
+{
+  "benchmark": "PTB-TIR",
+  "source": "https://github.com/QiaoLiuHit/PTB-TIR_Evaluation_toolkit",
+  "commit": "9c05db206e49fc9dce3d14e5c6525b6f40e9c5b8",
+  "sequence_count": 60,
+  "frame_count": 30029,
+  "records": [
+    {
+      "name": "airplane",
+      "start": 1,
+      "end": 380,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 380,
+      "annotation_xywh_sha256": "0e3794d093568a47943b4bad0fa2cb2ab140dc1037685ac1f2d36e321b170aa6"
+    },
+    {
+      "name": "birds",
+      "start": 1,
+      "end": 270,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 270,
+      "annotation_xywh_sha256": "f64a3f00f48d66dd8ec2dff06099fe38c3962399ed2aa0a9aab89879bc98a7b0"
+    },
+    {
+      "name": "campus1",
+      "start": 1,
+      "end": 368,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 368,
+      "annotation_xywh_sha256": "bbe21386c22ba438075b85f349f86406e6959a5bc8751b5eb859714e7b5cbbe6"
+    },
+    {
+      "name": "campus2",
+      "start": 1,
+      "end": 578,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 578,
+      "annotation_xywh_sha256": "b4d8505de45188c26b17a1eb88856bcbe8047c4fa0955725efe2d32bafa1460c"
+    },
+    {
+      "name": "circle1",
+      "start": 1,
+      "end": 387,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 387,
+      "annotation_xywh_sha256": "0c668b7924011f28a351b398e70f6e2d4857d76c7e63073281a9809f37b4720a"
+    },
+    {
+      "name": "circle2",
+      "start": 1,
+      "end": 400,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 400,
+      "annotation_xywh_sha256": "7f9715339213dc11ceae085b872087f74d2f8a2f5316af45c453a8e1081b0744"
+    },
+    {
+      "name": "classroom1",
+      "start": 1,
+      "end": 433,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 433,
+      "annotation_xywh_sha256": "4f4ad75da7b0412f6517399e91af9205d558197148dbeb157c65ea1023a0016c"
+    },
+    {
+      "name": "classroom2",
+      "start": 1,
+      "end": 310,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 310,
+      "annotation_xywh_sha256": "567ec35db9f2a7715f3dcbe171d531e323556ecf7477b10d5c54c4ebc2e6478e"
+    },
+    {
+      "name": "classroom3",
+      "start": 1,
+      "end": 800,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 800,
+      "annotation_xywh_sha256": "a62bab261d03f267d9647c0c24cf8da951aa0a0158568b180349b9a40563211b"
+    },
+    {
+      "name": "conversation",
+      "start": 1,
+      "end": 202,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 202,
+      "annotation_xywh_sha256": "14eebb0a2e428406592ca25bda7ee3b0525c6db49c8e0434912b1442c12cedce"
+    },
+    {
+      "name": "crossing",
+      "start": 1,
+      "end": 851,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 851,
+      "annotation_xywh_sha256": "78a89db0cd6ff0acddbe03685c8b04d2cca6777aa3074ca54699eaee69b7f120"
+    },
+    {
+      "name": "crossroad1",
+      "start": 1,
+      "end": 272,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 272,
+      "annotation_xywh_sha256": "4df441814c6ee79076d05227b5fef99d362cf6b04abbc00b891c9bb7ff330f25"
+    },
+    {
+      "name": "crossroad2",
+      "start": 1,
+      "end": 1390,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1390,
+      "annotation_xywh_sha256": "a44bb4652feeb0b199f78753ed61a8352900296a09a3c94f4b7d9bb08d89ff8e"
+    },
+    {
+      "name": "crouching",
+      "start": 1,
+      "end": 618,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 618,
+      "annotation_xywh_sha256": "2525183f1c47eca9398e3ac6093c7581164b5e391dca0efac8da29579da7a1d7"
+    },
+    {
+      "name": "crowd1",
+      "start": 1,
+      "end": 470,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 470,
+      "annotation_xywh_sha256": "c285bbf8665df879dbeb2b431d44521c2b4083e0a065955bc28a0a7a4a3136fd"
+    },
+    {
+      "name": "crowd2",
+      "start": 1,
+      "end": 700,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 700,
+      "annotation_xywh_sha256": "038941934ad157e4ffa33e5396a945f3b412a13af7c9b43dea10c4a947a13df0"
+    },
+    {
+      "name": "crowd3",
+      "start": 1,
+      "end": 525,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 525,
+      "annotation_xywh_sha256": "97245bcbeac96982eb701510fc4719d4ced4498fa94baa9bbd09c1fa9eb089e5"
+    },
+    {
+      "name": "crowd4",
+      "start": 1,
+      "end": 756,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 756,
+      "annotation_xywh_sha256": "9f8135e057d9550e7758f5b8650d3fc7e0675d0491e21a816eca79bf80ce03cd"
+    },
+    {
+      "name": "distractor1",
+      "start": 1,
+      "end": 150,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 150,
+      "annotation_xywh_sha256": "74c0250ee1c48123b5ba633b4f1f98854b9e0f7283a14fde5ccb7fe06c027492"
+    },
+    {
+      "name": "distractor2",
+      "start": 1,
+      "end": 270,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 270,
+      "annotation_xywh_sha256": "fb3f2adbcb23c1f9d521b35779dcaa169a4b997985f31a3528a0428087511acd"
+    },
+    {
+      "name": "fighting",
+      "start": 1,
+      "end": 58,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 58,
+      "annotation_xywh_sha256": "3d10cf33229bb636a38738fafa864c22e4a4acac702d5a01ca37a3606eb0adb4"
+    },
+    {
+      "name": "hiding",
+      "start": 1,
+      "end": 358,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 358,
+      "annotation_xywh_sha256": "31f3ee361918e5a6bfd79c61302a1bcc1403c24455c7b48885d5d957ff6cd1e6"
+    },
+    {
+      "name": "jacket",
+      "start": 1,
+      "end": 1451,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1451,
+      "annotation_xywh_sha256": "5b173574c0c8c316b4ce5d764e60316014fd0a4ac26bdf5005e006766a6df318"
+    },
+    {
+      "name": "meetion1",
+      "start": 1,
+      "end": 435,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 435,
+      "annotation_xywh_sha256": "35dbe8c719233b27f7de96a6eb4771f8dbee301ea82632e15a29b03468e5e486"
+    },
+    {
+      "name": "meetion2",
+      "start": 1,
+      "end": 630,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 630,
+      "annotation_xywh_sha256": "7af4667f93341599f6fb3738be3adcbeb1e0634534b4b46b458f4f260e39659f"
+    },
+    {
+      "name": "meetion3",
+      "start": 1,
+      "end": 615,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 615,
+      "annotation_xywh_sha256": "511ad01ab8719904cdf242ad97f80541e364023bcf86696a9ed200d544bfcf10"
+    },
+    {
+      "name": "meetion4",
+      "start": 1,
+      "end": 615,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 615,
+      "annotation_xywh_sha256": "daa2ff599b5cd7d5b92cf8c1c68291bef4e4a879fd615e9d31cefa03b3e3e7f1"
+    },
+    {
+      "name": "park1",
+      "start": 1,
+      "end": 800,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 800,
+      "annotation_xywh_sha256": "fa4fa662784a7f7abac153e985f7fb0f83f6f8caeb93fbfff99cf0c8735f7293"
+    },
+    {
+      "name": "park2",
+      "start": 1,
+      "end": 520,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 520,
+      "annotation_xywh_sha256": "d76cf935cd72da557b52e8a453db39a1f3434e109a488097f8aa7ea0c0e42765"
+    },
+    {
+      "name": "park3",
+      "start": 1,
+      "end": 90,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 90,
+      "annotation_xywh_sha256": "9e3af18db45df34fb5f40f272f9f10f5e1c0d4939cc7b164f32ff813680ec7ce"
+    },
+    {
+      "name": "park4",
+      "start": 1,
+      "end": 225,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 225,
+      "annotation_xywh_sha256": "a70983b813a0673bad7c1f9eb626c97a4ee69318b9353cc3c7cc19a7b844c89f"
+    },
+    {
+      "name": "park5",
+      "start": 1,
+      "end": 260,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 260,
+      "annotation_xywh_sha256": "1a75c1274449ccf2736ebe848228f6f606465494ed5ddcadfdf185a730a8894f"
+    },
+    {
+      "name": "patrol1",
+      "start": 1,
+      "end": 690,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 690,
+      "annotation_xywh_sha256": "6d74fffc323d419e3d888f87ac8c3960c266f169d3a5ea99518dc9974a24d597"
+    },
+    {
+      "name": "patrol2",
+      "start": 1,
+      "end": 1086,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1086,
+      "annotation_xywh_sha256": "decc6f856aec780638ceb5d6e82847f3a6d62965720e10b1b925e63e748f57e4"
+    },
+    {
+      "name": "phone1",
+      "start": 1,
+      "end": 1009,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1009,
+      "annotation_xywh_sha256": "f631123c81e17812f645725abe03610ccd61bbd28f163c45a3ac05f05d10d573"
+    },
+    {
+      "name": "phone2",
+      "start": 1,
+      "end": 688,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 688,
+      "annotation_xywh_sha256": "c2a2dc6356ec07f985db1449e06ba7da7eb17e90ae8af259b0203893ff26919d"
+    },
+    {
+      "name": "phone3",
+      "start": 1,
+      "end": 50,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 50,
+      "annotation_xywh_sha256": "d44dfa598175de2a9297ae4ce3ebdf4391a596ac3ce27e5ecfdbbceb54893633"
+    },
+    {
+      "name": "road1",
+      "start": 1,
+      "end": 936,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 936,
+      "annotation_xywh_sha256": "d33bbb342ee4903e96e01faa2fcdb92bcbf4108fec718b5fbb49b44723e4e87b"
+    },
+    {
+      "name": "road2",
+      "start": 1,
+      "end": 1792,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1792,
+      "annotation_xywh_sha256": "946e47c71c0a137dfc0256f131f14149274efd99389dd2b8820fcf7308d86df3"
+    },
+    {
+      "name": "road3",
+      "start": 1,
+      "end": 1550,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1550,
+      "annotation_xywh_sha256": "5564e00970b4471d4f730a5a4ffc8843288b6c05f2417ce4972609f50aab18fc"
+    },
+    {
+      "name": "room1",
+      "start": 1,
+      "end": 520,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 520,
+      "annotation_xywh_sha256": "ff45a33fb755607051de62da8e2425cf681b7d1beaa30aa128491bffbc8378a9"
+    },
+    {
+      "name": "room2",
+      "start": 1,
+      "end": 1150,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1150,
+      "annotation_xywh_sha256": "ec286a6ae66b922d8eab5139cde930d92c5d9a69d202f47510361b7cef9b6446"
+    },
+    {
+      "name": "room3",
+      "start": 1,
+      "end": 400,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 400,
+      "annotation_xywh_sha256": "03c19e3e383815d479daf6efa465c86c26fe023a9e172c8f4657ca35fadc1c8b"
+    },
+    {
+      "name": "sandbeach",
+      "start": 1,
+      "end": 1370,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 1370,
+      "annotation_xywh_sha256": "647c3681dbbad24c8ae8a4e39aa861ff816ce52654d567d609ff8530924a72b5"
+    },
+    {
+      "name": "saturated",
+      "start": 1,
+      "end": 218,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 218,
+      "annotation_xywh_sha256": "b2b2e3e998bb126a97c98724eb1e48a4683c401fcd176acf746d574156906081"
+    },
+    {
+      "name": "school1",
+      "start": 1,
+      "end": 170,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 170,
+      "annotation_xywh_sha256": "8bc622b53c39459a796a57c55a1580de2c5b7fc54e4d4e735d653e126a31edda"
+    },
+    {
+      "name": "school2",
+      "start": 1,
+      "end": 500,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 500,
+      "annotation_xywh_sha256": "c69846946ff41808c7edaeb674cfa285168d58c9ccec2c4abad4e91f5d45adbb"
+    },
+    {
+      "name": "sidewalk1",
+      "start": 1,
+      "end": 84,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 84,
+      "annotation_xywh_sha256": "5d1036927534a74d7561971980c5a0f593c27dd8687bd68b2d8ddfb1be8e4ceb"
+    },
+    {
+      "name": "sidewalk2",
+      "start": 1,
+      "end": 140,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 140,
+      "annotation_xywh_sha256": "799dcf65d8295e1c25cb97b60667598d43338cebfb8bbce3db3b4139d8f80934"
+    },
+    {
+      "name": "sidewalk3",
+      "start": 1,
+      "end": 100,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 100,
+      "annotation_xywh_sha256": "cae949577be5fef9aa2862b5de0888a3357c5278c7e54d61ca79406fbdc0558a"
+    },
+    {
+      "name": "soldier",
+      "start": 1,
+      "end": 95,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 95,
+      "annotation_xywh_sha256": "31a8b3851e9c8f4c75057883ee7ddae0ac6889169eff13275fad10cda1c0dc27"
+    },
+    {
+      "name": "stranger1",
+      "start": 1,
+      "end": 95,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 95,
+      "annotation_xywh_sha256": "4e22b9bc92fc67fcf9f870649e70c4827fdeb3a6a93588fb6d9c949cfeb60b10"
+    },
+    {
+      "name": "stranger2",
+      "start": 1,
+      "end": 280,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 280,
+      "annotation_xywh_sha256": "3816714aeb4396551db0bb9045fbe095ce74f5de8538154003bbb88279239c88"
+    },
+    {
+      "name": "stranger3",
+      "start": 1,
+      "end": 100,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 100,
+      "annotation_xywh_sha256": "f1c98f3a9ac9c52f08f80ec6e970e16cfaacca9c118322c95876707e7f498582"
+    },
+    {
+      "name": "street1",
+      "start": 1,
+      "end": 72,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 72,
+      "annotation_xywh_sha256": "99561781d51f5118d958af2b28baca5a8551ae987b23ddc8e97d29f4cb98f390"
+    },
+    {
+      "name": "street2",
+      "start": 1,
+      "end": 171,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 171,
+      "annotation_xywh_sha256": "d701761a82bf701543d7e344837d2f20b6d9d0911d7289ffca755c38b41783d7"
+    },
+    {
+      "name": "street3",
+      "start": 1,
+      "end": 53,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 53,
+      "annotation_xywh_sha256": "650c253dbdc59dbb7ce4c01ed6118e944496012d6cb76e07f2aa18a3cc91a3b0"
+    },
+    {
+      "name": "street4",
+      "start": 1,
+      "end": 68,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 68,
+      "annotation_xywh_sha256": "62ce6a9380c48ecfe1d724c3ea6745d5b3a66a207962ce0981453fdb7fa95a38"
+    },
+    {
+      "name": "street5",
+      "start": 1,
+      "end": 140,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 140,
+      "annotation_xywh_sha256": "dfce893ce6d5880e292e4f93646fcbb5851215a9094eb448dc3d8626ce34b36b"
+    },
+    {
+      "name": "walking",
+      "start": 1,
+      "end": 315,
+      "nz": 8,
+      "extension": "jpg",
+      "frame_count": 315,
+      "annotation_xywh_sha256": "bc9d97698eaff2ecd514d3153ec416b09d9b681a2d8085c4b88e8f29d057647d"
+    }
+  ]
+}

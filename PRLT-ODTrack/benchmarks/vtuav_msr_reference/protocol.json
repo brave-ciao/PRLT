@@ -1,0 +1,1245 @@
+{
+  "benchmark": "VTUAV-ST",
+  "sequence_count": 176,
+  "annotation_box_format": "xywh",
+  "annotation_stride": 10,
+  "prediction_input": "full-rate IR-only tracker predictions",
+  "metric_protocol": "VTUAV_OFFICIAL_DUAL_GT_MAXIMUM_ST176_v1",
+  "ground_truth_source": "Official VTUAV short-term annotations in the local dataset.",
+  "dataset_repository": "https://github.com/zhang-pengyu/DUT-VTUAV",
+  "dataset_commit": "a859ca1866bc86c4ea58e552a3d723e48ab867ff",
+  "records": [
+    {
+      "name": "pedestrian_234",
+      "frame_count": 647,
+      "annotation_count": 65,
+      "IR_GT_numeric_sha256": "0bbbd8e4e6c239a5fd7900830e764da36485a8b31ab570b371bb233ed6b542ef",
+      "RGB_GT_numeric_sha256": "bf0d5ab6025e941f5eeb539e5a87eb7e2abeccc5d422e3448fc9aebcf9e1aaf7"
+    },
+    {
+      "name": "car_004",
+      "frame_count": 1535,
+      "annotation_count": 154,
+      "IR_GT_numeric_sha256": "327cb9182032de779b0675f33da7a639eb72ccbd0d68a8ba0f0fa541e12c424c",
+      "RGB_GT_numeric_sha256": "20385579c725341919c9573fb7928202ceab445586e18a9d94b9b216d26429cc"
+    },
+    {
+      "name": "car_005",
+      "frame_count": 6340,
+      "annotation_count": 634,
+      "IR_GT_numeric_sha256": "0e41b15bfb1f0cead56816dc49c481eb3429407883d5e9d56e588f0b74cdfb87",
+      "RGB_GT_numeric_sha256": "45532ea485e633b0b16c9c05eb6083b9ef82100506a8ef4dc281ade0efbafa83"
+    },
+    {
+      "name": "car_006",
+      "frame_count": 2769,
+      "annotation_count": 277,
+      "IR_GT_numeric_sha256": "6f6b3885dbcd97e1f18dde599370e2de2043f8564c3ad8736594464d8dfed4b8",
+      "RGB_GT_numeric_sha256": "c5205b5fd7837981601a6eefb510b8649406ea1232b97c53472d780d39e77881"
+    },
+    {
+      "name": "car_007",
+      "frame_count": 599,
+      "annotation_count": 60,
+      "IR_GT_numeric_sha256": "94b4da59d2323e672c3ff1813fb63eb95a591de1c3e48dd27281246dd76cf861",
+      "RGB_GT_numeric_sha256": "5f13d956c86cce832e6b9d7696178fabc2e5813f9f15e759e1ba481d7bde5bd0"
+    },
+    {
+      "name": "car_132",
+      "frame_count": 1576,
+      "annotation_count": 158,
+      "IR_GT_numeric_sha256": "3c8da6d7a3927cbe87420cf777f5235df91c15296d5790deb1cafd2fedb53c23",
+      "RGB_GT_numeric_sha256": "5c5ecefd81bed9e890bc558c1efe7f718fb81a18d06f2be24af43ed592aa5744"
+    },
+    {
+      "name": "car_012",
+      "frame_count": 2852,
+      "annotation_count": 286,
+      "IR_GT_numeric_sha256": "9d98be8722f7214a5ad2bccc0ee00e2be6aa35db6b3674767fbefdfe3b5aeb83",
+      "RGB_GT_numeric_sha256": "37259b153cde82f33e719f21791599966990d230c3ec44d5cc8a496e0a3ba412"
+    },
+    {
+      "name": "pedestrian_001",
+      "frame_count": 1487,
+      "annotation_count": 149,
+      "IR_GT_numeric_sha256": "ca9e0a714d788ff7c37c9579942a41554b996460c17aa2c72f4967f04e0f2358",
+      "RGB_GT_numeric_sha256": "83aab511899e2438442f516859b9a5ff4369ddfe8c69ec34a36651e201781b41"
+    },
+    {
+      "name": "pedestrian_005",
+      "frame_count": 471,
+      "annotation_count": 48,
+      "IR_GT_numeric_sha256": "d0bf3fb26d7fb4e318cc4ccae0f880a692c4cec2f3638e44ef6e8b28033953b3",
+      "RGB_GT_numeric_sha256": "56816e280a5be2fbb0b2bc102f6c37842ae2f03cc8dee1b65805bfbc30c8c3b1"
+    },
+    {
+      "name": "pedestrian_006",
+      "frame_count": 2756,
+      "annotation_count": 276,
+      "IR_GT_numeric_sha256": "736a7b572e08b0e3cdcedae47932f49fa04175b8f31ded8932679f77a3a7188e",
+      "RGB_GT_numeric_sha256": "0915513ca063c66ec7357c85a62c99b40d4899b24b5c1abe68bc9c4fb047b231"
+    },
+    {
+      "name": "pedestrian_007",
+      "frame_count": 935,
+      "annotation_count": 94,
+      "IR_GT_numeric_sha256": "4aaed6ae0a308c74ad7debd8e3495a05a2dccd7bece649fadc2c2963e640a224",
+      "RGB_GT_numeric_sha256": "9f530b956df496126e2e469f2b59ec0372e2de299a62a8e4286db93080f2bccd"
+    },
+    {
+      "name": "car_020",
+      "frame_count": 5860,
+      "annotation_count": 586,
+      "IR_GT_numeric_sha256": "2e30f00fb3bca3bdf78ca969af6b683ba3294cc6513056ea271874a499b38496",
+      "RGB_GT_numeric_sha256": "461b090324b08726c9c117d9b8236bbf50d0c458fc509b0f396219b0e4928577"
+    },
+    {
+      "name": "bus_028",
+      "frame_count": 8266,
+      "annotation_count": 827,
+      "IR_GT_numeric_sha256": "ed9a836954f312ffe0d8b48be91c8d244f485ab3cc59dd24335287ed90cc2a3e",
+      "RGB_GT_numeric_sha256": "ddcca3c35c5db81649eb080e1b1e6838063ef8c1934a1268e0dab3e394923723"
+    },
+    {
+      "name": "elebike_002",
+      "frame_count": 1263,
+      "annotation_count": 127,
+      "IR_GT_numeric_sha256": "13d85fe19737d6b3305dde8e892044c4f10735a956afbc8198e0f8ee32842487",
+      "RGB_GT_numeric_sha256": "1d0bc8da3759cdfa93ab732a13c439c88166d8a17e2327196c5cf4d57575398f"
+    },
+    {
+      "name": "elebike_004",
+      "frame_count": 539,
+      "annotation_count": 54,
+      "IR_GT_numeric_sha256": "6a650f6ae16b2a230c9f8fec320d7e965889b03cfcd51aeace8bad47fd4e2a9f",
+      "RGB_GT_numeric_sha256": "7d080dc4643c5366e6edb7c4d67a359ae7130016c74667bd7e2024286c08400c"
+    },
+    {
+      "name": "truck_004",
+      "frame_count": 2313,
+      "annotation_count": 232,
+      "IR_GT_numeric_sha256": "cf188a79d8e1af1fa4d62895aa04506c8846533cf44cebafee57fd05585de930",
+      "RGB_GT_numeric_sha256": "c0f630e9a52b891701d257fde8b5db57693d1a727bc340c443ae67fa542c29c6"
+    },
+    {
+      "name": "tricycle_003",
+      "frame_count": 7539,
+      "annotation_count": 754,
+      "IR_GT_numeric_sha256": "a51315db7a938602e0044ac069fe6cb9257287bfaed9d7f7c48f7e7e9d07ca35",
+      "RGB_GT_numeric_sha256": "a606fdc481296b61f54e15a9216225a7b0ae46bd2c488f22873450130d50b128"
+    },
+    {
+      "name": "pedestrian_010",
+      "frame_count": 1288,
+      "annotation_count": 129,
+      "IR_GT_numeric_sha256": "04a3c60db00c8d8bd0023bd55b1785c3d076b3cbdc8e07fde4504ab680c7c96f",
+      "RGB_GT_numeric_sha256": "6ad3683b503e1349e4523dcb8e7f84f74b933402f60647b25129e1a348b75df5"
+    },
+    {
+      "name": "elebike_005",
+      "frame_count": 1093,
+      "annotation_count": 110,
+      "IR_GT_numeric_sha256": "ff7708bf681e483657e1d42e44086e9c9cd6bb44cf5da92b694fdec776992c9a",
+      "RGB_GT_numeric_sha256": "c09ec8fcef8b4e88d6d0a2d626963aebc6d07b305e3104d9e672fa2f4b595d34"
+    },
+    {
+      "name": "elebike_006",
+      "frame_count": 1132,
+      "annotation_count": 114,
+      "IR_GT_numeric_sha256": "41aa2dc295e29ed6845312e4c878286828f0ef2058fae47fcd61443c1407803a",
+      "RGB_GT_numeric_sha256": "375f0d1c62cac1710d20b0eba225d76c2dc46dd9eb879f025c70a608316c1436"
+    },
+    {
+      "name": "elebike_007",
+      "frame_count": 692,
+      "annotation_count": 70,
+      "IR_GT_numeric_sha256": "d7046222495ee6fc97b6fef74dd0667afe61a69678fd36931d184e1addb81594",
+      "RGB_GT_numeric_sha256": "c3aaa4a76f93d165ec1808c8c2a290f93440516026b8959d4e38f55f036c9b57"
+    },
+    {
+      "name": "animal_001",
+      "frame_count": 2047,
+      "annotation_count": 205,
+      "IR_GT_numeric_sha256": "ea7391909d26e08722e83ce86466da4dadf5b86d22e747719195629bd085d808",
+      "RGB_GT_numeric_sha256": "bd91435e41695c37913c866386ed67fe4e30fe7f4f5375580554739698685b86"
+    },
+    {
+      "name": "pedestrian_015",
+      "frame_count": 841,
+      "annotation_count": 85,
+      "IR_GT_numeric_sha256": "bf38baf66b6a0940cf4da539d80c695facecf39ec04f97396fb9d857016959a2",
+      "RGB_GT_numeric_sha256": "9d0597e1cc6716f559dec497335e706e6fedb3d5fc96553f78f426250cbcdff8"
+    },
+    {
+      "name": "pedestrian_016",
+      "frame_count": 1967,
+      "annotation_count": 197,
+      "IR_GT_numeric_sha256": "a5976411fbeccfe22d3d207c0697f0c8ff8fc17ec2984b2322353f35d6e34011",
+      "RGB_GT_numeric_sha256": "8989b54d8ed8ccf9e188ba762e6b11fc5c2f36775c705e710b11beded7cd17cc"
+    },
+    {
+      "name": "pedestrian_017",
+      "frame_count": 9019,
+      "annotation_count": 902,
+      "IR_GT_numeric_sha256": "bdd2a3ce4b57fe0c485c306572eb676c0439a4d1106c5c12c5893cf29c8fed8f",
+      "RGB_GT_numeric_sha256": "c4f490992cdbf64690f9485e1dbd8c5ecf08ad21cc2a3528c7c10f0b15db4d94"
+    },
+    {
+      "name": "elebike_008",
+      "frame_count": 453,
+      "annotation_count": 46,
+      "IR_GT_numeric_sha256": "09ce43466bfc256f5d9313a2be32e658214f0e06ffc0d868216e05711fbab276",
+      "RGB_GT_numeric_sha256": "30da6644b0289723e9000da5956147d607f08d10244efd800492b1a232381770"
+    },
+    {
+      "name": "car_042",
+      "frame_count": 1309,
+      "annotation_count": 131,
+      "IR_GT_numeric_sha256": "8e6639ae1101864ce2fa525ee21f4bea9bcf8e966e4e43a9a62c74eb07e7625d",
+      "RGB_GT_numeric_sha256": "5a61823658cf400d24187c2750430a08f0848421755b1c24f977ac0e173616fe"
+    },
+    {
+      "name": "pedestrian_019",
+      "frame_count": 9035,
+      "annotation_count": 904,
+      "IR_GT_numeric_sha256": "a61066ce90d0cd289be18cad45c5df90270b3c299a13e4e8b3c231c3de344a2f",
+      "RGB_GT_numeric_sha256": "76e20825921b206ac926a98f1290239edb424545e9ee17323cc8c7996cd7d03a"
+    },
+    {
+      "name": "bus_029",
+      "frame_count": 9122,
+      "annotation_count": 913,
+      "IR_GT_numeric_sha256": "207539cdc105c45632eec8472f52a781f0de2e335ac2992664d2f799562ce289",
+      "RGB_GT_numeric_sha256": "00c1f8cb9bd49ee2ad14b885c5af08f7ab847fd29285dc968fe237a051022000"
+    },
+    {
+      "name": "pedestrian_020",
+      "frame_count": 2827,
+      "annotation_count": 283,
+      "IR_GT_numeric_sha256": "4b210477094a0a138f29c154bdbbdde1fba9847fa9d592b27ccef6a5ef25aeff",
+      "RGB_GT_numeric_sha256": "f9a29cb57792a5eaadf5b4be5315a61cb87042ed2c560065f1c0ff7c7ef5cbef"
+    },
+    {
+      "name": "tricycle_004",
+      "frame_count": 9105,
+      "annotation_count": 911,
+      "IR_GT_numeric_sha256": "7b1da8317128b5798ac10c73fbd69b50e3a710917e9063beb03693df9750d2a9",
+      "RGB_GT_numeric_sha256": "451198d1c59a9c9d3c44900956142d35927bc7480eec5e240ce86ee93c0f8c75"
+    },
+    {
+      "name": "tricycle_005",
+      "frame_count": 739,
+      "annotation_count": 74,
+      "IR_GT_numeric_sha256": "db90867e15f763654b828116ba8c35903a3495be0c151679ff899d7e64a9dd7d",
+      "RGB_GT_numeric_sha256": "62bfeb6166f7af511092117036affb7d25860dd641dd565bb184891840bc9ec4"
+    },
+    {
+      "name": "tricycle_006",
+      "frame_count": 4761,
+      "annotation_count": 477,
+      "IR_GT_numeric_sha256": "c61a66f315f180e95fd6985625fb769af16f382c608df2728492e3df5dd119d7",
+      "RGB_GT_numeric_sha256": "1338f73d4bcdecb9accd5843662b5954dc339d1bdd77cd5d59e9b734792177e7"
+    },
+    {
+      "name": "tricycle_007",
+      "frame_count": 1291,
+      "annotation_count": 130,
+      "IR_GT_numeric_sha256": "d20a72038fb7818a19cab4dbae0a8a51a61633bfc471a57224abff20cbc30c7d",
+      "RGB_GT_numeric_sha256": "069ac5a3f243081a387a19e64a91be4d8ce1b9abd787d4f8e0486dafd0b14c54"
+    },
+    {
+      "name": "car_049",
+      "frame_count": 2478,
+      "annotation_count": 248,
+      "IR_GT_numeric_sha256": "c5ac22277a52b0c43463f113376a0cf75cd00b60f73021bc219934b6af26f0a3",
+      "RGB_GT_numeric_sha256": "78690dddf4adff5c77d81fb9499c48a00b5fb8c4a49e92f5ad264bc2dc88e4e7"
+    },
+    {
+      "name": "elebike_010",
+      "frame_count": 926,
+      "annotation_count": 93,
+      "IR_GT_numeric_sha256": "a667dc36fb35a4b8b939c9a4d99d15ca56d53a15478d6e8f7d2a329d7f9dab69",
+      "RGB_GT_numeric_sha256": "6ae1277fc841b2de985947335c56ff51654f5bd0d4b801febdd2dadd95132f44"
+    },
+    {
+      "name": "tricycle_008",
+      "frame_count": 499,
+      "annotation_count": 50,
+      "IR_GT_numeric_sha256": "a4fa77cc960d86413856e5922d8bff54aed583589c6d331c07652d28558aa39b",
+      "RGB_GT_numeric_sha256": "91d4cea78d1a0a53b460abd399bf5140b1e9e49206fca994340859cef8a4d4aa"
+    },
+    {
+      "name": "pedestrian_023",
+      "frame_count": 5173,
+      "annotation_count": 518,
+      "IR_GT_numeric_sha256": "e5e4df899bc6ea1252fa432d2a38cbc2ae676f04ff468e1482dd94603217d725",
+      "RGB_GT_numeric_sha256": "f00b3e6192ec67d499e4503962ae8e361b0db640514a9687f3406537135a51d2"
+    },
+    {
+      "name": "tricycle_009",
+      "frame_count": 470,
+      "annotation_count": 47,
+      "IR_GT_numeric_sha256": "1f38d0366353de74546c837fbb01a22fbcdc92219fd7323ccd1d70b5dc5b1c85",
+      "RGB_GT_numeric_sha256": "97c877fa3f90f169710380d9c777a909711adc002b5e2c7d250b29933bffd2eb"
+    },
+    {
+      "name": "car_053",
+      "frame_count": 1190,
+      "annotation_count": 119,
+      "IR_GT_numeric_sha256": "2bd43daba54bb84d8a89de32213c2fa72d462ae8909dd47bc74f03cdaa4e137f",
+      "RGB_GT_numeric_sha256": "5d72a2e6a2c408e83dd1ffd1cc761c07b590efbdea80c7cff5a953880942e6ae"
+    },
+    {
+      "name": "elebike_011",
+      "frame_count": 1850,
+      "annotation_count": 185,
+      "IR_GT_numeric_sha256": "31635273282a25942c22a037609bfe0186a685a0d73c10fc78592a61abe60882",
+      "RGB_GT_numeric_sha256": "5e35abc63bbda0b7611d7f72aec503907464afa72fc613132ade7b57ce0d7fc0"
+    },
+    {
+      "name": "tricycle_010",
+      "frame_count": 615,
+      "annotation_count": 62,
+      "IR_GT_numeric_sha256": "0a4cb6dca488825584022130886bf9cf9d76817950066fbe965f647c215883b8",
+      "RGB_GT_numeric_sha256": "28171b79873e129d55bffc4f8d191680e5466e21fe7d027686e5404ac7fb9367"
+    },
+    {
+      "name": "tricycle_011",
+      "frame_count": 463,
+      "annotation_count": 47,
+      "IR_GT_numeric_sha256": "e8da2b4affc09776e87924502d998332c8b279ad887273a74fb7fb01641fcc20",
+      "RGB_GT_numeric_sha256": "e7e4169005f59ed770364987207b55c1aa5f947eeda4f18e86eaef3203b8de55"
+    },
+    {
+      "name": "car_056",
+      "frame_count": 1003,
+      "annotation_count": 101,
+      "IR_GT_numeric_sha256": "a1a419e88a2b8e9548f8e92367b3ba1941b211d8fc82fbd6e01e2df38b6fae2a",
+      "RGB_GT_numeric_sha256": "80b5ccc56e4ad0958ac23516d34040edff8c4624225b33d8492dcfd39ec8d71c"
+    },
+    {
+      "name": "car_059",
+      "frame_count": 337,
+      "annotation_count": 34,
+      "IR_GT_numeric_sha256": "8177acec0588e4fb68898293d76b0f5ced220ecfe77ec6c4becb9521c9230feb",
+      "RGB_GT_numeric_sha256": "72744e86d25c18abdc909381187ba7c91a12003c0b69d2b0228382f5ad70d8ca"
+    },
+    {
+      "name": "tricycle_016",
+      "frame_count": 1099,
+      "annotation_count": 110,
+      "IR_GT_numeric_sha256": "f7bfb8facf1f0814bf32d463283ee3b62bfaa2ad10712a649993ae94287b60c9",
+      "RGB_GT_numeric_sha256": "af3a2785be3d8aebc511068d6e2448784e8ed520a7f0b97ebf13d1d53047011d"
+    },
+    {
+      "name": "tricycle_017",
+      "frame_count": 583,
+      "annotation_count": 59,
+      "IR_GT_numeric_sha256": "189735d0a4f1b12d777f6815e671211357b7ebe0f358179827d566e7875c9fc9",
+      "RGB_GT_numeric_sha256": "399dc912d820898d3ecb3297ec9cd04582b903b2bd5561c2b57acb35ec839804"
+    },
+    {
+      "name": "tricycle_019",
+      "frame_count": 1840,
+      "annotation_count": 184,
+      "IR_GT_numeric_sha256": "6ef027c5eb4b63457f72467630e6218aeac40c9c30c629a8f6a6d5f5edfaa2d1",
+      "RGB_GT_numeric_sha256": "d70e3f159f9b0e7fd01d51b101efcbd0c554d1114ac4e27f457e214762222d34"
+    },
+    {
+      "name": "car_060",
+      "frame_count": 2382,
+      "annotation_count": 239,
+      "IR_GT_numeric_sha256": "d68027f18575c49dd961cc9dc17975d5595a0bced7d30543deae9cb5fb7ee031",
+      "RGB_GT_numeric_sha256": "71864a8a1fe73744b8bdc9771dce08c9674a7a30b9dcb620809a1de9b416dd73"
+    },
+    {
+      "name": "car_061",
+      "frame_count": 6910,
+      "annotation_count": 691,
+      "IR_GT_numeric_sha256": "949f91a52c06f270d4cadc7c361c3a2feab47be31266cbd9f67ea1bbe8d2973a",
+      "RGB_GT_numeric_sha256": "8d0701460665bac7c2b8ea7b28863e986b138586b3d8b968dde8983bbe973305"
+    },
+    {
+      "name": "tricycle_023",
+      "frame_count": 6319,
+      "annotation_count": 632,
+      "IR_GT_numeric_sha256": "bc496d3020a329d6fd9aea83c1c4c31518fde638f9a14284e7eea84e5d9801aa",
+      "RGB_GT_numeric_sha256": "6e7ef9cd177c5fab648dcb1aa01352a31205d7dc4853f6bd6fe0079040776799"
+    },
+    {
+      "name": "pedestrian_025",
+      "frame_count": 9040,
+      "annotation_count": 904,
+      "IR_GT_numeric_sha256": "ee2f894e0ccc82ff3390402070126bbee83f4596a1c82a4f619c6e9ce223f042",
+      "RGB_GT_numeric_sha256": "f28ea42167c082258a47007d715d3de14b976de285914b03e8b9dc22de9046c6"
+    },
+    {
+      "name": "bike_003",
+      "frame_count": 704,
+      "annotation_count": 71,
+      "IR_GT_numeric_sha256": "809c9b3391571affe1990b80f28c069e55b4cae90eeda1eba2a8567c7f5f4f64",
+      "RGB_GT_numeric_sha256": "55a5b8da0206cfca65b2b2b6a20e7b22786438e5da98792a5a86834db24c7067"
+    },
+    {
+      "name": "bus_026",
+      "frame_count": 1551,
+      "annotation_count": 156,
+      "IR_GT_numeric_sha256": "8e3758361bbe11f13527e46d995cf0bd12cc6a9983e571b5e238de5172c1dea5",
+      "RGB_GT_numeric_sha256": "e0cbd953879d40d035e382574bc4696b0696fd8efe9fe17c365c19c01a097df1"
+    },
+    {
+      "name": "car_064",
+      "frame_count": 343,
+      "annotation_count": 35,
+      "IR_GT_numeric_sha256": "8c7faeb4b532604f8bda00b0b63a608a8c6fef69d85be4e07e2bffecbe4b5697",
+      "RGB_GT_numeric_sha256": "2e9faf108ca921b224b2a4a686372803503b365f8dc076e0906b5386857011bd"
+    },
+    {
+      "name": "car_065",
+      "frame_count": 412,
+      "annotation_count": 42,
+      "IR_GT_numeric_sha256": "742ef054bcbef93bc1c4fca2ce65b4bc2e6febeaee99daff70c6bf053b0eb061",
+      "RGB_GT_numeric_sha256": "1df4ee36f3ae19cc032722792cb619f9c66da03546f87d35b4b4283cbafcf1ae"
+    },
+    {
+      "name": "pedestrian_026",
+      "frame_count": 4128,
+      "annotation_count": 413,
+      "IR_GT_numeric_sha256": "243ddfa21acaa2fcbc6e022f3d73fec2036dc3cedb1d1eb6b94a9b39941a71cd",
+      "RGB_GT_numeric_sha256": "d8f99e2d040bd99547da94d987dcbaee61cc9ee2a63dd9d8b0803b9de7928af0"
+    },
+    {
+      "name": "pedestrian_027",
+      "frame_count": 8340,
+      "annotation_count": 834,
+      "IR_GT_numeric_sha256": "1e33a679bbab6d15890af5a3ed48cd391923872bef0c4cbee69ecaeaf93530a6",
+      "RGB_GT_numeric_sha256": "6956bfcc1f7d9410b59f6c701096263a44b2304f3bb03558640640e5bccaf058"
+    },
+    {
+      "name": "pedestrian_028",
+      "frame_count": 8760,
+      "annotation_count": 876,
+      "IR_GT_numeric_sha256": "98a5c6e3b0b1baab78b2dad40312343e64cdb9747a74dd1a875f02b5f9d7942c",
+      "RGB_GT_numeric_sha256": "f70e63f629c99c07632511087825713ae49f83afe730fc3d3d6e3f33a7a396c5"
+    },
+    {
+      "name": "truck_007",
+      "frame_count": 6274,
+      "annotation_count": 628,
+      "IR_GT_numeric_sha256": "5ac4b4de420c4d1ac4a83516a6e3ecb8d812c2d027e079b43dac1cbb2b5b59b9",
+      "RGB_GT_numeric_sha256": "e37a5811e0ac04d325f7b171b09eda966fdf5b6eb0050fe46156aa0525503e2e"
+    },
+    {
+      "name": "pedestrian_033",
+      "frame_count": 665,
+      "annotation_count": 67,
+      "IR_GT_numeric_sha256": "77a17a137aaab00f1ba74299d24e4fda40967b125dc74fcf36986ced55cbfe19",
+      "RGB_GT_numeric_sha256": "a5e67f64e4d9491312414705c46eb4703e6f45952e08234d8a72fcc0e9dfce52"
+    },
+    {
+      "name": "pedestrian_034",
+      "frame_count": 1405,
+      "annotation_count": 141,
+      "IR_GT_numeric_sha256": "a050669cb3fb7174bd3bfd41a10af835970c7dd5d1d970740f75585548bb3719",
+      "RGB_GT_numeric_sha256": "db615e5cd2d5eb8f6c9715a0cb1fd86b0240fe5b3a721456dc92495496bc2580"
+    },
+    {
+      "name": "pedestrian_036",
+      "frame_count": 613,
+      "annotation_count": 62,
+      "IR_GT_numeric_sha256": "2cbdfe8017b62aa403a7fde89f5216fb0b1602639453716e0b5a4069845a9477",
+      "RGB_GT_numeric_sha256": "38a3092847d94798b1757f5a2d4502c0a4049f377045992697e6a3f5eef35c3a"
+    },
+    {
+      "name": "car_075",
+      "frame_count": 1075,
+      "annotation_count": 108,
+      "IR_GT_numeric_sha256": "e109803b847dc92c947aa3441fbb5be858e7dacb6c83ff4f19359c9706cdc90c",
+      "RGB_GT_numeric_sha256": "427be4d5cc17d48983315667f2961847cd612b75b0fb716abb9c7be3c7e7b87d"
+    },
+    {
+      "name": "tricycle_027",
+      "frame_count": 723,
+      "annotation_count": 73,
+      "IR_GT_numeric_sha256": "d2e112f94db2f718f1d45b2115418647d0fef7bdf6a4e7bce3c657dffac9c0cb",
+      "RGB_GT_numeric_sha256": "15a4826c6ba1bffd47ab9843dc5bb9d961674de8d9f9ba2851a3eeb0ed931b44"
+    },
+    {
+      "name": "pedestrian_038",
+      "frame_count": 4613,
+      "annotation_count": 462,
+      "IR_GT_numeric_sha256": "a7923b3c4a7a708e12a0eaa6fbcac0ab3305dcc85ef208bc6d05a0fd066a8ef2",
+      "RGB_GT_numeric_sha256": "3bb93a93c90f15603ae72832243ddce509a495a3b1261ddc4ba28a1c5eccb43f"
+    },
+    {
+      "name": "pedestrian_041",
+      "frame_count": 961,
+      "annotation_count": 97,
+      "IR_GT_numeric_sha256": "bf664092efc27b1183a69de338c771d44946a0ce7cc245cebcf25711d9bb1212",
+      "RGB_GT_numeric_sha256": "08a2858bb727cf3b37a9fb12f128847babc1d6cb6626fb7ff17a09d0f04e4edb"
+    },
+    {
+      "name": "car_077",
+      "frame_count": 1069,
+      "annotation_count": 107,
+      "IR_GT_numeric_sha256": "003149ab59b1cf21ce7c50f7c48e7e4c684cf4386c5d66c445b57a36083349a5",
+      "RGB_GT_numeric_sha256": "dd1a38b869b41c2b66b8a299043b527c59dfdec648e26d35bfc8db065248c49f"
+    },
+    {
+      "name": "pedestrian_044",
+      "frame_count": 1009,
+      "annotation_count": 101,
+      "IR_GT_numeric_sha256": "84f84dd5e84899617bc4fec72710b3193379ac276283d3f8e63a4d40923f5f06",
+      "RGB_GT_numeric_sha256": "0ab914a2dfc5dce7a19c8850a58cfe98ffb88debb5afc7aa63aa782af74d42c1"
+    },
+    {
+      "name": "bike_005",
+      "frame_count": 3583,
+      "annotation_count": 359,
+      "IR_GT_numeric_sha256": "70c627d776d1c3f20e6016ff47f366536ed2ec021ad4377894f2b0d2bce28bb1",
+      "RGB_GT_numeric_sha256": "e053f7ce4cba2a522ad02e005b7b30f0e3583976ad594ffc9aa5c3ea844f3b27"
+    },
+    {
+      "name": "bike_006",
+      "frame_count": 3552,
+      "annotation_count": 356,
+      "IR_GT_numeric_sha256": "f4e9d6116b1d45ac749435d7d17a63a77c83f50dc2a97e868bdb0404c87613c9",
+      "RGB_GT_numeric_sha256": "d92c1cdb1cfdc71ad8cf9f21c2a5b2680a5e1079acb2521a3c6a06b75b6e900b"
+    },
+    {
+      "name": "pedestrian_046",
+      "frame_count": 5431,
+      "annotation_count": 544,
+      "IR_GT_numeric_sha256": "4501d7cf01b726ca75dae8416f5c343585beb2adf5a690aea620af6b935ad628",
+      "RGB_GT_numeric_sha256": "13d336a7133ee15d5b35cc64e7b315491431185b0ffa1ef6a662ba270b5d9977"
+    },
+    {
+      "name": "pedestrian_050",
+      "frame_count": 3949,
+      "annotation_count": 395,
+      "IR_GT_numeric_sha256": "caea6f00b3ba9b8bdd612abd602771c760d71f05c66e912b3181fe2898358f95",
+      "RGB_GT_numeric_sha256": "3c3aeae890ad90fbe84e5d77f1e0db7128bb95f2d86c33d6ffd41cb441b0035f"
+    },
+    {
+      "name": "pedestrian_051",
+      "frame_count": 4002,
+      "annotation_count": 401,
+      "IR_GT_numeric_sha256": "d9d3415a986ae1b5dd4b0f7247a8cad0e12ecea36b22c46adc81eec996459b3d",
+      "RGB_GT_numeric_sha256": "9b2caa26e2357e4163b49e67a854dca562b7ae11a095366cdc8ccac6ae91a1de"
+    },
+    {
+      "name": "truck_008",
+      "frame_count": 2737,
+      "annotation_count": 274,
+      "IR_GT_numeric_sha256": "8e04fc55b4c4a3f78ff369f8005c7c4330a6f1a28fe840329116d0c6fefb797e",
+      "RGB_GT_numeric_sha256": "c51127f13dafc3740e0d73f012e830a9438939abeb90e97cc4b82a21c83a5d32"
+    },
+    {
+      "name": "pedestrian_052",
+      "frame_count": 1627,
+      "annotation_count": 163,
+      "IR_GT_numeric_sha256": "ff9a62008294e045308d1dcf49817db5ea29058f96f764ecfd0248974730956e",
+      "RGB_GT_numeric_sha256": "eca727acbac07d267ac46a2d6ce2b2f285dcb2d6700f37c4c8d8048a2850af96"
+    },
+    {
+      "name": "pedestrian_053",
+      "frame_count": 2485,
+      "annotation_count": 249,
+      "IR_GT_numeric_sha256": "a1db494dc6d8cebcf6f9069bed15c9eabcde1e9244b9724bfcdf97ac976e1934",
+      "RGB_GT_numeric_sha256": "b4df0151945eb66c8fc642a593bd2f8c5dd378827321d9f805c6d221108b0259"
+    },
+    {
+      "name": "pedestrian_056",
+      "frame_count": 7567,
+      "annotation_count": 757,
+      "IR_GT_numeric_sha256": "c81bea7cb524e3a45891baf671181d7663a2e9dea679ee719c5d653f18d94123",
+      "RGB_GT_numeric_sha256": "071d0f8893578586da91ebbb5dd5144d52bce07d54b478e82c8a833cf2333027"
+    },
+    {
+      "name": "bike_008",
+      "frame_count": 3703,
+      "annotation_count": 371,
+      "IR_GT_numeric_sha256": "7e5768114e1fd1b5542b7d6fd349d970ccbf47095c4d0b9ce27547f0f17ad3a7",
+      "RGB_GT_numeric_sha256": "f3bb5799f5c7ec0413967e8fd7cbdbca5077b132d2f166d0e530a4aa98d3a1c3"
+    },
+    {
+      "name": "pedestrian_058",
+      "frame_count": 8899,
+      "annotation_count": 890,
+      "IR_GT_numeric_sha256": "c96c2e4e5ddf3c2bf336654a2523b1e0290d563deff0e48ad7fb800cfb1a9da2",
+      "RGB_GT_numeric_sha256": "427d3842f4743a2eccbc83a614dc7a64e68181b622939a6176ecefdbcc57a123"
+    },
+    {
+      "name": "bus_021",
+      "frame_count": 2552,
+      "annotation_count": 256,
+      "IR_GT_numeric_sha256": "962ce2bb0e632f9608c0707e6af5c4aa42594886c7a58e88316ed8246405db91",
+      "RGB_GT_numeric_sha256": "a94cbb069a459136c0597aa8016a482a1df61ecea01ce1acd66c761b72c34242"
+    },
+    {
+      "name": "pedestrian_060",
+      "frame_count": 9118,
+      "annotation_count": 912,
+      "IR_GT_numeric_sha256": "2bceb20e9bc4ba17019bc080e6839231a8e22336832c3dee18df123dc9bc2b72",
+      "RGB_GT_numeric_sha256": "5185156a6453743dcc04109dc3f767c362edf3f49fa15935a482b6c5577a2796"
+    },
+    {
+      "name": "car_096",
+      "frame_count": 589,
+      "annotation_count": 59,
+      "IR_GT_numeric_sha256": "a4a8551f353deb4b26c9bbeab94d00a8486871562ac9bbffb5d308821158c6df",
+      "RGB_GT_numeric_sha256": "1324f3f6e93d7490b5f56be785173e64c157ea7af5686447df8c1bb1e888e87b"
+    },
+    {
+      "name": "car_097",
+      "frame_count": 661,
+      "annotation_count": 67,
+      "IR_GT_numeric_sha256": "3b03cc23ae3895a77ac88db11a274d244bd466af4288f83b455fa8663fc0f35b",
+      "RGB_GT_numeric_sha256": "0ff37345c4ca3ce9299a87e19a428c8437cf637bcd903f039669316f0dab8f95"
+    },
+    {
+      "name": "car_101",
+      "frame_count": 1686,
+      "annotation_count": 169,
+      "IR_GT_numeric_sha256": "33b131cd60ed09872f9e741759cafb52c265c08d3046ac156d3a2c6023b9b14d",
+      "RGB_GT_numeric_sha256": "66d1aaa18b111bdc5a13f19107492e9e10dba82b1158b612740eda3caf9ee06f"
+    },
+    {
+      "name": "pedestrian_062",
+      "frame_count": 1647,
+      "annotation_count": 165,
+      "IR_GT_numeric_sha256": "d0f83ea26e419df694c8bdf2dcc623cb84c3b0acbcf50f035759570bffcd2cad",
+      "RGB_GT_numeric_sha256": "14e808bd41ce84809139bb558ea98eaafb0fe87430ca9413a737749069b642a8"
+    },
+    {
+      "name": "pedestrian_064",
+      "frame_count": 4065,
+      "annotation_count": 407,
+      "IR_GT_numeric_sha256": "aac978c808ec778c4d62228693d2f40a8ec1c07be2916a76c2fd232574176c62",
+      "RGB_GT_numeric_sha256": "6cce973315f2da84b984cff34a4bde6fbadb3fd5ee7133657630329f54257d77"
+    },
+    {
+      "name": "bus_019",
+      "frame_count": 409,
+      "annotation_count": 41,
+      "IR_GT_numeric_sha256": "80441106a1445d607e17ef57f64e89e33255dc7c935fc11f08376497b8a4f537",
+      "RGB_GT_numeric_sha256": "20a4aea1c4ec1a165663eafb69fd90e969c5705b6f328f8518d5399d0aee0991"
+    },
+    {
+      "name": "car_109",
+      "frame_count": 1316,
+      "annotation_count": 132,
+      "IR_GT_numeric_sha256": "df00ab083af84938f2020c4c649fbd4326e57f8450fdefbf24a005a5da3f746b",
+      "RGB_GT_numeric_sha256": "e200e4de0fe0356fa46e64098aa5dc147d1f55db2d0bb2638e2c4e80075aadd6"
+    },
+    {
+      "name": "car_110",
+      "frame_count": 1276,
+      "annotation_count": 128,
+      "IR_GT_numeric_sha256": "9e3bc4dc7ba6c7f10c411ba580a720a8b6e3ddaf677ba82c78b30f31f21f1002",
+      "RGB_GT_numeric_sha256": "41848d2fecbfe5fda8fe30fc4f05ef325096b2ce405495cc39ba959d77e5c964"
+    },
+    {
+      "name": "pedestrian_077",
+      "frame_count": 1945,
+      "annotation_count": 195,
+      "IR_GT_numeric_sha256": "425cefc932e2c405bab568644d5b0ab80438583b6b1467aa97339273384dbc5f",
+      "RGB_GT_numeric_sha256": "3c56d1c4a35dd905548e0234f68e7b708c5579bdb42a32b40b933f8d9abb15b1"
+    },
+    {
+      "name": "pedestrian_079",
+      "frame_count": 1076,
+      "annotation_count": 108,
+      "IR_GT_numeric_sha256": "a9762ce40262a9d568fd3569168e24babfc1141b514b8a6562985d28087fde58",
+      "RGB_GT_numeric_sha256": "759891fad81c230541762f83ffdbc38d539a26b08d6f91ba34f51d3f29240cb2"
+    },
+    {
+      "name": "car_112",
+      "frame_count": 1425,
+      "annotation_count": 143,
+      "IR_GT_numeric_sha256": "b40b4cc564b9bd944e9813e527e4a176a3dfa25443ea8eba1d39ffb66f5d5dd1",
+      "RGB_GT_numeric_sha256": "124e9497f8d33058b9e1e9f988d9af106064b49d29fd94835e6f15e0dc60fe2a"
+    },
+    {
+      "name": "pedestrian_080",
+      "frame_count": 2929,
+      "annotation_count": 293,
+      "IR_GT_numeric_sha256": "7a1caa876cf183beecfe877284c5ceda74ce0f4e7f16f6f579af01d64d98ef57",
+      "RGB_GT_numeric_sha256": "644cef90f133732e68418c8c58edd2f7cdc758b8345017195ad8bf47dd869450"
+    },
+    {
+      "name": "pedestrian_088",
+      "frame_count": 1473,
+      "annotation_count": 148,
+      "IR_GT_numeric_sha256": "c6bf6c47cea3554a99073d9a424bb221387c0f1e1204a1e0f4f5e45e4cc29890",
+      "RGB_GT_numeric_sha256": "176eb5616c1d48d38ac83c62feef866a9ee0abdbc7180495b847e385f4ec7e23"
+    },
+    {
+      "name": "pedestrian_089",
+      "frame_count": 637,
+      "annotation_count": 64,
+      "IR_GT_numeric_sha256": "3a486b124fc1e1e74f695f394407d842778b293e9390db6ed78ad5fc61cba37f",
+      "RGB_GT_numeric_sha256": "25dadf1f08fffb7f23237aa8e5ddd7600c4fca62ffdbb9012c59b59cf8917958"
+    },
+    {
+      "name": "pedestrian_093",
+      "frame_count": 1081,
+      "annotation_count": 109,
+      "IR_GT_numeric_sha256": "562abc3f2c45402fd3d1a708a18ee1d37181d3fa7838a59a64e50ec9b40529ff",
+      "RGB_GT_numeric_sha256": "9977494c14be3b386159af5d3d95a7505f43bcf3aec83d75fd278451d44aa6d0"
+    },
+    {
+      "name": "pedestrian_095",
+      "frame_count": 2282,
+      "annotation_count": 229,
+      "IR_GT_numeric_sha256": "a38cfba4e234663eb3227e7a31f8934e8a012d05c4899b5766caa5d58134160f",
+      "RGB_GT_numeric_sha256": "afdc44141307216f9ebf58482ae82909e45d7ca88ea993c0db7cbc493a193a95"
+    },
+    {
+      "name": "pedestrian_098",
+      "frame_count": 789,
+      "annotation_count": 79,
+      "IR_GT_numeric_sha256": "3f2c60a634d3b2bc0afbf9c9fce1ec84b54d0c2543574b6798673e8fea10ca12",
+      "RGB_GT_numeric_sha256": "a8922cc38e40e67bff2760a569e9025ba12c4739ab369973130f840cc4071aa3"
+    },
+    {
+      "name": "pedestrian_110",
+      "frame_count": 953,
+      "annotation_count": 96,
+      "IR_GT_numeric_sha256": "e2cd94e5add5fbb94e6af73413023e5150d64b5fabd6c93a9e7117c14f9af096",
+      "RGB_GT_numeric_sha256": "10cc697a302dcd0ea93e7feaff825784754102a50fa42a2829f57fb86a2b6396"
+    },
+    {
+      "name": "pedestrian_111",
+      "frame_count": 465,
+      "annotation_count": 47,
+      "IR_GT_numeric_sha256": "1d742acb1976d2b44ad992140d93f113bacda935acd9cb9d4cfb409a44c2f98b",
+      "RGB_GT_numeric_sha256": "9401deff46c02950766754bdb2910b138322711b29562c287bb0c59fe23735d5"
+    },
+    {
+      "name": "pedestrian_109",
+      "frame_count": 664,
+      "annotation_count": 67,
+      "IR_GT_numeric_sha256": "962fbffb5bd4bac6e458c2f563cc1d63484ba40f857adfd6a4f332609814305f",
+      "RGB_GT_numeric_sha256": "8e9e825e460967c7eb2cb2f9e0ccd4cc88740c1d5d1fd5d834c503f23ad43ae0"
+    },
+    {
+      "name": "bus_014",
+      "frame_count": 2719,
+      "annotation_count": 272,
+      "IR_GT_numeric_sha256": "2c3f9b80630b423e9b148315860654a290f024b340cb0c1a8d5366c90974352f",
+      "RGB_GT_numeric_sha256": "4f7081b145b67b530c95ff6d195fe3e99908d6d8bb56f332673f23c2c3dbb19b"
+    },
+    {
+      "name": "elebike_018",
+      "frame_count": 497,
+      "annotation_count": 50,
+      "IR_GT_numeric_sha256": "24462647ac05f394ab301dd03749de1583b68308dc4416c28640c160aed080c0",
+      "RGB_GT_numeric_sha256": "90258bb10ae54e44301536f6fcd74a6e8303312421780ea5b80d98e0047ea36d"
+    },
+    {
+      "name": "pedestrian_112",
+      "frame_count": 1073,
+      "annotation_count": 108,
+      "IR_GT_numeric_sha256": "cc4df53ef954607c5107cd22b88944d2e3a348fac3f3cf7e953fca320cfb148d",
+      "RGB_GT_numeric_sha256": "460adcc761475421739072d05078941870f18e7e1868972e720b4f137b25ecda"
+    },
+    {
+      "name": "bus_012",
+      "frame_count": 1153,
+      "annotation_count": 116,
+      "IR_GT_numeric_sha256": "f7b6d752553bfe87283912025e6b517d88d650bf4df2b30808263156c8528ec3",
+      "RGB_GT_numeric_sha256": "3b9fd18c908fa8ac55995b4edbababa4c84766f9c8789892ca9ca51d955ed5e4"
+    },
+    {
+      "name": "car_128",
+      "frame_count": 777,
+      "annotation_count": 78,
+      "IR_GT_numeric_sha256": "1d389d36331d7c2fa2cca44d2f894e25a3d484c9688d5a54498b05b3c36fa30d",
+      "RGB_GT_numeric_sha256": "de96f1063951b67c2adbfa7022771f2e25d8c2101cfb3e2cbab020f8246b5785"
+    },
+    {
+      "name": "elebike_019",
+      "frame_count": 785,
+      "annotation_count": 79,
+      "IR_GT_numeric_sha256": "c0500da51fc0d38bb100b8fcc7695663f8284bceddb8970be745b8d670997f05",
+      "RGB_GT_numeric_sha256": "8fa571d7f86a613db5df2dec8092905135186050180a5f221bb38b53c95e8022"
+    },
+    {
+      "name": "car_129",
+      "frame_count": 497,
+      "annotation_count": 50,
+      "IR_GT_numeric_sha256": "549601e45e20100d8b16212a615f57f40958f82e77ca56542e07058e1f0f3b02",
+      "RGB_GT_numeric_sha256": "5b0ab6107937d234905e90f71a01a64aa8f24ac1f45992186b1e57d5b9964149"
+    },
+    {
+      "name": "pedestrian_113",
+      "frame_count": 585,
+      "annotation_count": 59,
+      "IR_GT_numeric_sha256": "f64e29f87f3faa79d39bf25d737f3e4e31139a79afb85d425809f6ac95fff316",
+      "RGB_GT_numeric_sha256": "ac5ae16ec96d0ae69a36fd1dbc3e4da84e8e70f8951d427babbbf0b4b42b377c"
+    },
+    {
+      "name": "pedestrian_117",
+      "frame_count": 1518,
+      "annotation_count": 152,
+      "IR_GT_numeric_sha256": "6b9b158849e00e45aa3b2bf0287bf16ac113f53bce857b019105ca151c05cbdd",
+      "RGB_GT_numeric_sha256": "f7c1a15c5c367ee48db5ed01a9436baedb7ce1b7f5df34b5c73f54f75399c3f2"
+    },
+    {
+      "name": "pedestrian_119",
+      "frame_count": 1066,
+      "annotation_count": 107,
+      "IR_GT_numeric_sha256": "bf347c06bbe3acc2984e44a7f31d2bfc54cccb5d24bf5f0bd57f2f2d8fd7679c",
+      "RGB_GT_numeric_sha256": "23d8ce438ae75ce6e5ac0e8668406fbd36aa3cbfba7c050cda6bbcc7d4e94405"
+    },
+    {
+      "name": "pedestrian_120",
+      "frame_count": 407,
+      "annotation_count": 41,
+      "IR_GT_numeric_sha256": "c132c71ec735a4b0f67830cd5709df54732cd4114cfc7607c8c8253260b130a4",
+      "RGB_GT_numeric_sha256": "710bff496b8169107132ae76e3192300bcdbc143f4f345f2f0d5e79b59000dec"
+    },
+    {
+      "name": "pedestrian_121",
+      "frame_count": 274,
+      "annotation_count": 28,
+      "IR_GT_numeric_sha256": "fa0446f2abb08f6dc6702d7d7935e8039b47b0414769f98991b949dc131aa0d2",
+      "RGB_GT_numeric_sha256": "d110735ce17cd165433975c07113986243be66c3c439106cd412193227b613f4"
+    },
+    {
+      "name": "pedestrian_122",
+      "frame_count": 889,
+      "annotation_count": 89,
+      "IR_GT_numeric_sha256": "d707c8ed1399a3affb1648f2778504b77f6bf6d884d3da363befc208f555ea63",
+      "RGB_GT_numeric_sha256": "999de7962d49f9f5a91fd3f232ac787ff3ba8bef5a8fffefcd5e491850358760"
+    },
+    {
+      "name": "pedestrian_123",
+      "frame_count": 2640,
+      "annotation_count": 264,
+      "IR_GT_numeric_sha256": "0fb357854d97b7384c59b0d8fced4f335d89bf2550a6af2822ded928af7b563f",
+      "RGB_GT_numeric_sha256": "65f95d66fa641dcd4958f9e1cb89526bc36cb2b1e100679bf6213b77eae82533"
+    },
+    {
+      "name": "pedestrian_127",
+      "frame_count": 7105,
+      "annotation_count": 711,
+      "IR_GT_numeric_sha256": "21b47883dc4653bbac3b7021cdcb282c4c629d1445c4043396ce4289881b16a1",
+      "RGB_GT_numeric_sha256": "c497f2940b40d89b2149588429d9891ccfc4f7ad9cecd6e480dcf1a6bd2cc8c6"
+    },
+    {
+      "name": "pedestrian_130",
+      "frame_count": 2364,
+      "annotation_count": 237,
+      "IR_GT_numeric_sha256": "d5ad014cee5ddb7d5598a2e7faf5ee183a9882ad9181651ad43eec8c4bdb94dc",
+      "RGB_GT_numeric_sha256": "40cb3b8f3e2e73aa779060e06d6a82e0948263516211f7ed2a5bdf2e07187635"
+    },
+    {
+      "name": "tricycle_032",
+      "frame_count": 5893,
+      "annotation_count": 590,
+      "IR_GT_numeric_sha256": "7adfea8375f71e20dc009825c4962073bdf94e0b64a99cac60ce734fe031292e",
+      "RGB_GT_numeric_sha256": "da404488493a147b00807e8c475d8ecad9c5d38b7b937e9de4b2fdf4419aad75"
+    },
+    {
+      "name": "tricycle_035",
+      "frame_count": 9123,
+      "annotation_count": 913,
+      "IR_GT_numeric_sha256": "8f057e5d2a41ea75cf76b4cb8f0838634f42a0341f58912eace2f3872c69d403",
+      "RGB_GT_numeric_sha256": "1f22c6b27a171fd3a7eaa8d850ad2a4dfc3e54357110c9184e801c056661c816"
+    },
+    {
+      "name": "ship_001",
+      "frame_count": 16414,
+      "annotation_count": 1642,
+      "IR_GT_numeric_sha256": "72727f41cd30d32f2d7051c77ff3742f13173033e78a6ac5bb36b02265ead185",
+      "RGB_GT_numeric_sha256": "cb080c54c664e54fae937b6b97e81e5fec5199c3c7f78576232dbdb236b0e86d"
+    },
+    {
+      "name": "tricycle_037",
+      "frame_count": 7049,
+      "annotation_count": 705,
+      "IR_GT_numeric_sha256": "d3531d1e56d7ccc3cdf596cc64c368d9a034c7bdb1c2e61cdb6ce4adf4be288e",
+      "RGB_GT_numeric_sha256": "696b4319e01dbff2bed1a46b62cb5c374f6447a8c051a6838a70eba8ef0b1261"
+    },
+    {
+      "name": "pedestrian_134",
+      "frame_count": 8401,
+      "annotation_count": 841,
+      "IR_GT_numeric_sha256": "2647fb9db556350a25362f4ab560abdc13d676f6524a76d6c5f7be566684228b",
+      "RGB_GT_numeric_sha256": "8716d227123e7035017a64746e406b3cfcd319c5b319be686cf8521575b01301"
+    },
+    {
+      "name": "c-vehicle_003",
+      "frame_count": 7520,
+      "annotation_count": 752,
+      "IR_GT_numeric_sha256": "7801799c482aa3aa9798691a481f37c9e16163c57ed9f6f72f78e575285d8d3b",
+      "RGB_GT_numeric_sha256": "af051eb66b8e48eec3400f2fbaca8af49320d5833849e609e810ceb3210265e0"
+    },
+    {
+      "name": "bus_010",
+      "frame_count": 8089,
+      "annotation_count": 809,
+      "IR_GT_numeric_sha256": "c70c62157b34024d7f981dee30a6018f0dba3616ad7f3136e8b09006911d0dfb",
+      "RGB_GT_numeric_sha256": "ef1b2f84067c45aab6e566c43b3615aec1bffeea4c50f032738e0864e42dd127"
+    },
+    {
+      "name": "car_022",
+      "frame_count": 11625,
+      "annotation_count": 1163,
+      "IR_GT_numeric_sha256": "066f53c0cfb9feeb9b39c64b1a14021a168123782fcd555d768b22de2f771d06",
+      "RGB_GT_numeric_sha256": "c3cc8543caddf60b3acdd62e615be6d4f439584549ac7631f44f4296dfe61f98"
+    },
+    {
+      "name": "pedestrian_136",
+      "frame_count": 5505,
+      "annotation_count": 551,
+      "IR_GT_numeric_sha256": "b2881032d5e46a8d624df8151d6ba708307eab8553f02e8691aff4b71a597e86",
+      "RGB_GT_numeric_sha256": "da0d4f63de2ca9fea1cd892cf33717ab260bf30d794b44e4327eb5c5e180fed2"
+    },
+    {
+      "name": "car_027",
+      "frame_count": 6307,
+      "annotation_count": 631,
+      "IR_GT_numeric_sha256": "47b280ff62ed185d91156a2f1358d47535d2813b50a16bd76833fccc936f9d82",
+      "RGB_GT_numeric_sha256": "a66454c560727bef4351ed05f7b4587d904626ba58d0d62852d82427ba08a38d"
+    },
+    {
+      "name": "bus_001",
+      "frame_count": 10958,
+      "annotation_count": 1096,
+      "IR_GT_numeric_sha256": "c49fb4bcc51196be2d159b73f68f64f1424a81d917dd9d5139b0b3cdb8e7b11b",
+      "RGB_GT_numeric_sha256": "d9142447f1ef790bbb0174f3665f65e0ef99dfd2c818153767530ae5d5f8abf2"
+    },
+    {
+      "name": "pedestrian_138",
+      "frame_count": 5899,
+      "annotation_count": 590,
+      "IR_GT_numeric_sha256": "7a204a7b61ca4641c24c99164bc1d1eac96eceb3ce754a33ab4239846bf1963b",
+      "RGB_GT_numeric_sha256": "010abc65b554ef16dbf01d5eb9eb20bac932f5879c41a17b07d03970dfe849a6"
+    },
+    {
+      "name": "pedestrian_139",
+      "frame_count": 1441,
+      "annotation_count": 145,
+      "IR_GT_numeric_sha256": "06808bc55915b37d951c476f51807158b779fc526c9b28123c8601e37723a579",
+      "RGB_GT_numeric_sha256": "b6be9df950abcacf51e4f3887516a0daca749572ea60f78eeb8fc152e0b6b1b3"
+    },
+    {
+      "name": "pedestrian_142",
+      "frame_count": 1248,
+      "annotation_count": 125,
+      "IR_GT_numeric_sha256": "a8c1b95f06316fce5ffcba2a6a051546fd08b53891c9e23374f3ca3d205317f1",
+      "RGB_GT_numeric_sha256": "695034297ae62d8a2e3b37f53453f972acfc1ff6cd8fad8fbc71f81fce6b55e4"
+    },
+    {
+      "name": "pedestrian_143",
+      "frame_count": 2028,
+      "annotation_count": 203,
+      "IR_GT_numeric_sha256": "04aa551619ca3a1c38af93739ed0ae3197e0b7b448bd3b4f47d1c9510e921a54",
+      "RGB_GT_numeric_sha256": "a3a084a9a8c5fa7b57aafd459d0386b3cfb4cf0ce5bf5093c39df2bc82d48641"
+    },
+    {
+      "name": "bus_004",
+      "frame_count": 2809,
+      "annotation_count": 281,
+      "IR_GT_numeric_sha256": "e18aad5c307f0b8e8c27b1d816b6a9dbe21ce0ee2ed71ac03b8bdb1776e7d090",
+      "RGB_GT_numeric_sha256": "7711734fe45bbdd0c02e950d4b8a824c66f6f83d4816efa58ca176a361dd1ddd"
+    },
+    {
+      "name": "pedestrian_148",
+      "frame_count": 2465,
+      "annotation_count": 247,
+      "IR_GT_numeric_sha256": "c888da4b05aca0e5242a8939deaa27b515f908fbac421917f0c385f29ab53b90",
+      "RGB_GT_numeric_sha256": "b31242ef90a4977ec8955e29b76b1178046bfcc65e2a3520a37fdfb3b6859210"
+    },
+    {
+      "name": "pedestrian_149",
+      "frame_count": 9776,
+      "annotation_count": 978,
+      "IR_GT_numeric_sha256": "2cf98a327edfe2228762780fff51db988f81aaca9b064e1e08fb469a22903823",
+      "RGB_GT_numeric_sha256": "df4ec4a11218b3b9c977a42544bfabc28f34a2402f0f020cd6177a2101750bb5"
+    },
+    {
+      "name": "bus_006",
+      "frame_count": 3769,
+      "annotation_count": 377,
+      "IR_GT_numeric_sha256": "e6ed9f3a3002687d6622de9ee15ca1becb72232064ef101475c752275dd01645",
+      "RGB_GT_numeric_sha256": "94c7128a631f8bf5b7779b82fd1adc0511f65225fe6f3b7fdaab2d4078a9b157"
+    },
+    {
+      "name": "bus_007",
+      "frame_count": 3551,
+      "annotation_count": 356,
+      "IR_GT_numeric_sha256": "0902d046fc7e06da6638650bfbcaebdefe828163d800f34f98abbc718297d61a",
+      "RGB_GT_numeric_sha256": "78d672f2b5a979df155cccbaf23817038fe726cfef1acd19dae5360fe9710a44"
+    },
+    {
+      "name": "pedestrian_150",
+      "frame_count": 4026,
+      "annotation_count": 403,
+      "IR_GT_numeric_sha256": "714313747b7373d7b3ab5bc623ba484cfe539ea33c0fe1f745e5a3cf3aad4a32",
+      "RGB_GT_numeric_sha256": "48b97f465075d431d602da4be54f80945b3feb8505e2575bc7ead30e21b6b445"
+    },
+    {
+      "name": "pedestrian_151",
+      "frame_count": 2521,
+      "annotation_count": 253,
+      "IR_GT_numeric_sha256": "022f9f220aa22daf059007bf0c12f24a4f8e8e3a7998fe63c5506eeff69256dd",
+      "RGB_GT_numeric_sha256": "d143763897a25974cb1b4822da00af12080c173370ceef5d8ad1d34b8fe46e97"
+    },
+    {
+      "name": "pedestrian_152",
+      "frame_count": 2793,
+      "annotation_count": 280,
+      "IR_GT_numeric_sha256": "b831a558bdc2690bdf86370ab2c6979e6d29eb2007f0857ef6479b08405004d3",
+      "RGB_GT_numeric_sha256": "38c5fce17ccf8e78c762c186b794959cca26f6d50060fc5fb23117891b8fa55e"
+    },
+    {
+      "name": "pedestrian_153",
+      "frame_count": 6049,
+      "annotation_count": 605,
+      "IR_GT_numeric_sha256": "40ffebdd34f5b9c2e0aedaaf2b480d590a18ae862ac82c01dc01017727e833a4",
+      "RGB_GT_numeric_sha256": "d94b71caf9c7ba2cba472d72761c7fb92aa9d81b55e0b0fc251d1fb887baab56"
+    },
+    {
+      "name": "pedestrian_154",
+      "frame_count": 1889,
+      "annotation_count": 189,
+      "IR_GT_numeric_sha256": "4f5854af6250b9d32bc81fc9d2689c1c845360323b93a81873dd53f8dc3e7e6e",
+      "RGB_GT_numeric_sha256": "12be9faba996df712799ff5c0b4f7a94ea299c775befe42542268acc9155d509"
+    },
+    {
+      "name": "pedestrian_155",
+      "frame_count": 8865,
+      "annotation_count": 887,
+      "IR_GT_numeric_sha256": "7f6c76b0daa5dd8cbb7f788367421d47fc26975a66557b4c0b4a9f00182e11c2",
+      "RGB_GT_numeric_sha256": "3739455fddcd59855e3d9a4c4053e78296953dcab2146a85442a1fa93f0cc5e9"
+    },
+    {
+      "name": "car_063",
+      "frame_count": 10500,
+      "annotation_count": 1050,
+      "IR_GT_numeric_sha256": "51105bec09b14c7b32478e76ab2684d1092b17cf533dde9470a1f0a80564fa48",
+      "RGB_GT_numeric_sha256": "f5a04061e3be5c7bd36cf06eae486f5ab6bb52624651c6ce73979cffb640ca41"
+    },
+    {
+      "name": "pedestrian_156",
+      "frame_count": 7417,
+      "annotation_count": 742,
+      "IR_GT_numeric_sha256": "99d020c43d939a696272c665b66942c0529f94926bb840c178a3b5c1342c6ded",
+      "RGB_GT_numeric_sha256": "972c93020ffc79a6a672067fcdabf22496781fd9f5d999e8ea74c3fcabd165d8"
+    },
+    {
+      "name": "pedestrian_161",
+      "frame_count": 3055,
+      "annotation_count": 306,
+      "IR_GT_numeric_sha256": "5c4fd739e78a53c64dfed8dba2b2c633efab4a81edbb18921aeacb757c57766a",
+      "RGB_GT_numeric_sha256": "744991c21dae56c026ddb863fc935dd70cba053f125752620b31b403f42de993"
+    },
+    {
+      "name": "pedestrian_162",
+      "frame_count": 5413,
+      "annotation_count": 542,
+      "IR_GT_numeric_sha256": "96cc5767b3cc39b4c3325b64b29878026f2f4c7d5b503ed19b8d3711b8f74716",
+      "RGB_GT_numeric_sha256": "d4234dd10250472ba9a867e687318e75f1739db6bfa27bcae82cd9ab429a0cca"
+    },
+    {
+      "name": "pedestrian_163",
+      "frame_count": 5431,
+      "annotation_count": 544,
+      "IR_GT_numeric_sha256": "0c953b960af53299e4a0eb6b01305b69d48db95815639cce338d75bd05d381a6",
+      "RGB_GT_numeric_sha256": "561d5f228138a3b2b6e75d6d7d9ed293130f7342dafbb1f61843c1d140c56c7e"
+    },
+    {
+      "name": "pedestrian_164",
+      "frame_count": 4705,
+      "annotation_count": 471,
+      "IR_GT_numeric_sha256": "fbc3a6734240f4ce72b8153e74e0ab00f5671a021698c13727f12552bc65c9b1",
+      "RGB_GT_numeric_sha256": "f3fb3b9a62a8926a10b29735561daa3cec719a899c24826b1941f27957b6627f"
+    },
+    {
+      "name": "pedestrian_173",
+      "frame_count": 1938,
+      "annotation_count": 194,
+      "IR_GT_numeric_sha256": "9d720af605872a32a0f4a4ba533437819305f89419e6ed7cd6206d1cd235d4eb",
+      "RGB_GT_numeric_sha256": "17f7f792585f846ef26d6a493e113335e92398c4e8df00ef0e78c7d30ab74e10"
+    },
+    {
+      "name": "pedestrian_179",
+      "frame_count": 6491,
+      "annotation_count": 650,
+      "IR_GT_numeric_sha256": "5b66b11027aecdf9b17c92f15d61239092356bdeaa23aa04fd724181221a3684",
+      "RGB_GT_numeric_sha256": "3c5afa81cfbd16e977ce58565ae4e7e79894a2df300f62170cb684185805d660"
+    },
+    {
+      "name": "pedestrian_183",
+      "frame_count": 6235,
+      "annotation_count": 624,
+      "IR_GT_numeric_sha256": "2a5b04ed53be497d906f7390578ab2633bfb698ef8511871b52805419b2b91a7",
+      "RGB_GT_numeric_sha256": "1b93a351bd94be8726511c2f1136c41dcf458714ee09bf6c9f13afd02852b750"
+    },
+    {
+      "name": "pedestrian_185",
+      "frame_count": 1338,
+      "annotation_count": 134,
+      "IR_GT_numeric_sha256": "dc210a9d90a66bd24cb377fa2dc645c729207b38629ef3c0d4271a7761a6f09e",
+      "RGB_GT_numeric_sha256": "27fba58d24c5e4891e57fdedff6c498f52fcf68e3f363057ef39bf3e59465fe5"
+    },
+    {
+      "name": "pedestrian_192",
+      "frame_count": 8346,
+      "annotation_count": 835,
+      "IR_GT_numeric_sha256": "80f0e0477df861644fe46dea03c0b72411fc56299fe207279650f7f9291cf998",
+      "RGB_GT_numeric_sha256": "fec54df232ae3f3fd981803811b6104171d7e16fb99541f6223af74afca44a06"
+    },
+    {
+      "name": "cable_002",
+      "frame_count": 4222,
+      "annotation_count": 423,
+      "IR_GT_numeric_sha256": "1fb042bc1ac77806efc318583e809805fa3fd165f7aca776cac19c6bee83b868",
+      "RGB_GT_numeric_sha256": "042f676e5f8f1b43c82b6008e662cd0c15919f74290a886e3b2287d5286be316"
+    },
+    {
+      "name": "car_067",
+      "frame_count": 1968,
+      "annotation_count": 197,
+      "IR_GT_numeric_sha256": "237c2cf5e4091f62db49e76606c760c250033641c6d87a096a8bddd78f0d5529",
+      "RGB_GT_numeric_sha256": "a697e3558adf5e484edef3c6dd9f8cf4d20fab7a32a50a2280aee246e21fff3a"
+    },
+    {
+      "name": "train_003",
+      "frame_count": 5779,
+      "annotation_count": 578,
+      "IR_GT_numeric_sha256": "c4245721d50fd99aa11dcf6fff9b984641350eabd32348150cf1b760d9cf7862",
+      "RGB_GT_numeric_sha256": "646744d6a5359e89dea88ff36395d2ce8f5a9e44d760b8df0e923a5d604331a1"
+    },
+    {
+      "name": "pedestrian_195",
+      "frame_count": 3333,
+      "annotation_count": 334,
+      "IR_GT_numeric_sha256": "88bc65d5cc98f79e8a33d056cef58a4fa1843b0057b441bd60cb75c0b7b7076b",
+      "RGB_GT_numeric_sha256": "1743fd8e79e119a8f91e26c78db8bda74edf558a274e4058d2e2c4baea2b5f83"
+    },
+    {
+      "name": "pedestrian_196",
+      "frame_count": 1807,
+      "annotation_count": 181,
+      "IR_GT_numeric_sha256": "d3f7f1876b1744704038eb64682df4b0656fba5bf3e049f06db4628b883d1641",
+      "RGB_GT_numeric_sha256": "6186723bfc2d74e040c791cdedc7046cba2355aa6b5ee5dd7c9ee09cfdfdb62c"
+    },
+    {
+      "name": "car_072",
+      "frame_count": 4132,
+      "annotation_count": 414,
+      "IR_GT_numeric_sha256": "cd6b7d74755b537c1e3c2de294c16a7ee195c4de87a1934633fd6de9f66101eb",
+      "RGB_GT_numeric_sha256": "7bf8657b20ded40d51ef261ad5f46846d81efd0c12d23ccd6265f066072ec183"
+    },
+    {
+      "name": "car_079",
+      "frame_count": 3224,
+      "annotation_count": 323,
+      "IR_GT_numeric_sha256": "cbc90ca9959681de96131fc1cdb752bbf7f1fe851cbd1af81d4548f353bef01e",
+      "RGB_GT_numeric_sha256": "7f32629d5c04304b268be3f60aed827a505e5fbc2dd828564eb02c9ded6233eb"
+    },
+    {
+      "name": "car_106",
+      "frame_count": 856,
+      "annotation_count": 86,
+      "IR_GT_numeric_sha256": "c43e544a06acc3bced8761c2834437be97922bc36200255485a9ec85360729d8",
+      "RGB_GT_numeric_sha256": "75f0c2aaf51098490eea20b14166fde2518a21750970191cfba6c5fb369e8dc4"
+    },
+    {
+      "name": "elebike_031",
+      "frame_count": 2935,
+      "annotation_count": 294,
+      "IR_GT_numeric_sha256": "da58e8f180ab6a24c2c63530784fa23168f21d501ca6a6ad802af2b3e3933d6c",
+      "RGB_GT_numeric_sha256": "1f3e2ec5fc49d222d3b3f7e26858817f96157d891ce84611be6e5c95c9d1e85f"
+    },
+    {
+      "name": "pedestrian_209",
+      "frame_count": 1994,
+      "annotation_count": 200,
+      "IR_GT_numeric_sha256": "7129c81e6b430c9f0c67510e4243e46658707d9d4e189f9e19ee3a7f2323e6fb",
+      "RGB_GT_numeric_sha256": "4728f7345ce7b6450be8ffdd7aa03e0aa36023e53c98256948d6f135b69d7996"
+    },
+    {
+      "name": "pedestrian_211",
+      "frame_count": 1849,
+      "annotation_count": 185,
+      "IR_GT_numeric_sha256": "68e74ec510a7f1163c7b1a7377aee9bf0e72546ebb53377da7c7c94c4d8ae895",
+      "RGB_GT_numeric_sha256": "781571adf11124dc943a6ff689aa5c572a8088c61693283e461b91702b561cdf"
+    },
+    {
+      "name": "pedestrian_213",
+      "frame_count": 2910,
+      "annotation_count": 291,
+      "IR_GT_numeric_sha256": "9282c762408face0b39e6fb1eb303d069a4099ef752e14e89b6cf0d664ecbbac",
+      "RGB_GT_numeric_sha256": "a2ab5fd505dc00077e1dc6c24681277c9fbdef8985a5e3d0479e211058d251f8"
+    },
+    {
+      "name": "pedestrian_215",
+      "frame_count": 15532,
+      "annotation_count": 1554,
+      "IR_GT_numeric_sha256": "c5ca219e0537d1397571df1bbcf3f3e7130a3feb89e24cd9cee88f132762a2a1",
+      "RGB_GT_numeric_sha256": "3c7369e5973235eff3f8fd366beb278c50abe6c2cdf28247efd1b82c1d437f5a"
+    },
+    {
+      "name": "pedestrian_217",
+      "frame_count": 7304,
+      "annotation_count": 731,
+      "IR_GT_numeric_sha256": "b321fc6b1e77e45239636ae0dde2ed032cf85e850cbc7ebc4841d714802c4778",
+      "RGB_GT_numeric_sha256": "ffb7e5d615550402ecbd7c09d0fff99eeb473ebaa11277c0ffaf675761d49a32"
+    },
+    {
+      "name": "car_123",
+      "frame_count": 4400,
+      "annotation_count": 440,
+      "IR_GT_numeric_sha256": "d192e596e6ece6e38ffdce5b23c14706b69a7e5cc139846ece8fee7ba3be29db",
+      "RGB_GT_numeric_sha256": "f82c4a6c89c517febc58186d800828ec891dbaed50902de5aa5a56080ecb40bf"
+    },
+    {
+      "name": "train_004",
+      "frame_count": 4014,
+      "annotation_count": 402,
+      "IR_GT_numeric_sha256": "b4ece11af006c40acbb340d96958d26c060e0a16808f694f35aecde67b681323",
+      "RGB_GT_numeric_sha256": "98502a248fd4ccf00ff79dc81d4b948af1e8d05591972bf7619d825502b19be8"
+    },
+    {
+      "name": "pedestrian_227",
+      "frame_count": 4319,
+      "annotation_count": 432,
+      "IR_GT_numeric_sha256": "dd031279ed68ae60986cc3f77c99a9891ac0712071fde555ce997ac84a967f07",
+      "RGB_GT_numeric_sha256": "1d1befda742f06991344d0f185e1a04dc53507af247927d1cc132354dd764e44"
+    },
+    {
+      "name": "excavator_001",
+      "frame_count": 25295,
+      "annotation_count": 2530,
+      "IR_GT_numeric_sha256": "5a7318d3ec98b784301cdd908b72d320e843fd94f941fd1197ac4fa5e354983f",
+      "RGB_GT_numeric_sha256": "d1223cbeb67148bbb5a97a8995eb6df077ecb8988c663daa18666e8d41af8d18"
+    },
+    {
+      "name": "elebike_032",
+      "frame_count": 7229,
+      "annotation_count": 723,
+      "IR_GT_numeric_sha256": "7bcdd6f8d8e6311a0a88e64d6b27c26149b0da66bf6bbb9f71049d11b044b50e",
+      "RGB_GT_numeric_sha256": "038ed22303871380887af68aeef83267a3eac7475b8b0c9757a3c6b45d422778"
+    },
+    {
+      "name": "pedestrian_229",
+      "frame_count": 5667,
+      "annotation_count": 567,
+      "IR_GT_numeric_sha256": "b8655ba6eb95908316d45dc034981ad0529c118626fca29b8c4dd2b3ec876d59",
+      "RGB_GT_numeric_sha256": "604a796ae03c23a13c8e45982cb389dbcf5b8bbd7292627b60c030297b6c82e8"
+    },
+    {
+      "name": "pedestrian_230",
+      "frame_count": 4584,
+      "annotation_count": 459,
+      "IR_GT_numeric_sha256": "85bc4c1ca17f6125396cc034fc7a8d54cf6718785818111a208e733f8dd11952",
+      "RGB_GT_numeric_sha256": "0a74cf1ff8fa55d2c459030f4923bec95c94bb67dbdec2b89492ab76461fd816"
+    }
+  ]
+}

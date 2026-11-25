@@ -1,0 +1,1009 @@
+{
+  "benchmark": "LSOTB-TIR120",
+  "sequences": 120,
+  "frames": 82133,
+  "annotation_format": "xywh",
+  "repository": "https://github.com/QiaoLiuHit/LSOTB-TIR",
+  "commit": "5d0edd73d666c5aaa746e1321d7e079cccb72f27",
+  "source_config": "configSeqs.m",
+  "source_config_sha256": "f823778b730994306ac6544cea5a45559d38843311b9c7994e0a911561657bca",
+  "sequence_records": [
+    {
+      "name": "airplane_H_001",
+      "startFrame": 1,
+      "endFrame": 1300,
+      "nz": 4,
+      "frame_count": 1300,
+      "annotation_xywh_sha256": "72403d3db64e8b28acc0a0178e366699e8065c96777cdeb977e5e647834f3009"
+    },
+    {
+      "name": "airplane_H_002",
+      "startFrame": 1,
+      "endFrame": 482,
+      "nz": 4,
+      "frame_count": 482,
+      "annotation_xywh_sha256": "55d4292f98c086d3980c9426cd880e74e5c060bc7335b8a05bc7d44f9d2efc6c"
+    },
+    {
+      "name": "badger_H_001",
+      "startFrame": 1,
+      "endFrame": 600,
+      "nz": 4,
+      "frame_count": 600,
+      "annotation_xywh_sha256": "40632a3b850a9a8c86de27dbcf1db874627200b9742c88d8e7521d7f4fd2b034"
+    },
+    {
+      "name": "bat_H_001",
+      "startFrame": 1,
+      "endFrame": 270,
+      "nz": 4,
+      "frame_count": 270,
+      "annotation_xywh_sha256": "4877c7078dabc1d4c0111cb364080c140ea2d00bc918e795379cc8bb80f33153"
+    },
+    {
+      "name": "bird_H_001",
+      "startFrame": 1,
+      "endFrame": 500,
+      "nz": 4,
+      "frame_count": 500,
+      "annotation_xywh_sha256": "a4832e5b5f246be9a419bc706eaea3df964343fa8d920b888b9a158205c25fb8"
+    },
+    {
+      "name": "bird_H_002",
+      "startFrame": 1,
+      "endFrame": 125,
+      "nz": 4,
+      "frame_count": 125,
+      "annotation_xywh_sha256": "9490a499da9b81452565102be8b6bea13a8bc7dedb41d38a7636b399a033238e"
+    },
+    {
+      "name": "bird_H_003",
+      "startFrame": 1,
+      "endFrame": 710,
+      "nz": 4,
+      "frame_count": 710,
+      "annotation_xywh_sha256": "fb0718abc433f34a02e4ccb56bc2de90497c90dd72b747bbebfd1e81ba29def6"
+    },
+    {
+      "name": "boat_H_001",
+      "startFrame": 1,
+      "endFrame": 545,
+      "nz": 4,
+      "frame_count": 545,
+      "annotation_xywh_sha256": "a80fec3b41574afc4e2b67c7b8da2c3364851486e1112b495e98c984372ea646"
+    },
+    {
+      "name": "cat_H_001",
+      "startFrame": 1,
+      "endFrame": 875,
+      "nz": 4,
+      "frame_count": 875,
+      "annotation_xywh_sha256": "e03b60ca5b499095e8bf5877e7356392002ea4ef0d0b96008361d7fdbd9d215a"
+    },
+    {
+      "name": "cat_H_002",
+      "startFrame": 1,
+      "endFrame": 150,
+      "nz": 4,
+      "frame_count": 150,
+      "annotation_xywh_sha256": "ebef247d6d06f43677ee06a3c2696e9b6e7a8cd57fa763fa43b2d9ec051bd203"
+    },
+    {
+      "name": "cow_H_001",
+      "startFrame": 1,
+      "endFrame": 340,
+      "nz": 4,
+      "frame_count": 340,
+      "annotation_xywh_sha256": "ffb0efbf92698ccf03f7a52ed67678dff3ce836cac01bb52451793bbe2e61a8a"
+    },
+    {
+      "name": "deer_H_001",
+      "startFrame": 1,
+      "endFrame": 330,
+      "nz": 4,
+      "frame_count": 330,
+      "annotation_xywh_sha256": "02e2cb8c52b3b45a7aa010f9840de5928e9fb1835b21fb28579108ead63f8500"
+    },
+    {
+      "name": "dog_H_001",
+      "startFrame": 1,
+      "endFrame": 295,
+      "nz": 4,
+      "frame_count": 295,
+      "annotation_xywh_sha256": "f0b15a6f69361b962a4fda30fe8e7a72d093f3bceecd75e2be3d57b88bcfbb24"
+    },
+    {
+      "name": "fox_H_001",
+      "startFrame": 1,
+      "endFrame": 620,
+      "nz": 4,
+      "frame_count": 620,
+      "annotation_xywh_sha256": "983d5603037fe5f5d44737e09d6d4b509a37f3f3caf5edba6e43fec171c9f405"
+    },
+    {
+      "name": "helicopter_H_001",
+      "startFrame": 1,
+      "endFrame": 270,
+      "nz": 4,
+      "frame_count": 270,
+      "annotation_xywh_sha256": "6275fa0d1e532b0879a6a335b3d23058a0a57f71c7ec35c75ceabe62071f777c"
+    },
+    {
+      "name": "helicopter_H_002",
+      "startFrame": 1,
+      "endFrame": 1000,
+      "nz": 4,
+      "frame_count": 1000,
+      "annotation_xywh_sha256": "23596c539ccdfc898915ea7d845345bf85f25e5902fe69dcf71de5fbd58871d1"
+    },
+    {
+      "name": "hog_H_001",
+      "startFrame": 1,
+      "endFrame": 490,
+      "nz": 4,
+      "frame_count": 490,
+      "annotation_xywh_sha256": "78eb626ce0e2aedcae9ff5721228c29d2c4559092650c34655c5218a2014fa03"
+    },
+    {
+      "name": "hog_H_002",
+      "startFrame": 1,
+      "endFrame": 460,
+      "nz": 4,
+      "frame_count": 460,
+      "annotation_xywh_sha256": "2d65213a67d96d8fe2ebdcea6a0ae0e9c13f04e748966353227622a39813a10e"
+    },
+    {
+      "name": "hog_H_003",
+      "startFrame": 1,
+      "endFrame": 612,
+      "nz": 4,
+      "frame_count": 612,
+      "annotation_xywh_sha256": "fec9c5390a4cc388c4f57b082d80c58c7423764ad49d39de2a2e3f101e71feb9"
+    },
+    {
+      "name": "hog_H_004",
+      "startFrame": 1,
+      "endFrame": 820,
+      "nz": 4,
+      "frame_count": 820,
+      "annotation_xywh_sha256": "fc3e14e0ede808a226a812c4c413617a0ba517a180a1c4b15ff38676c62e2a28"
+    },
+    {
+      "name": "woman_H_001",
+      "startFrame": 1,
+      "endFrame": 465,
+      "nz": 4,
+      "frame_count": 465,
+      "annotation_xywh_sha256": "248af302376295018a2b2f49e0aad5c1ce66a90d424957620691426b41965c0f"
+    },
+    {
+      "name": "person_H_001",
+      "startFrame": 1,
+      "endFrame": 630,
+      "nz": 4,
+      "frame_count": 630,
+      "annotation_xywh_sha256": "2f43a506d0b994d8f9e065e5a091255ac2f2ec23b1f80d9c7c534d6f99b967c8"
+    },
+    {
+      "name": "person_H_002",
+      "startFrame": 1,
+      "endFrame": 300,
+      "nz": 4,
+      "frame_count": 300,
+      "annotation_xywh_sha256": "c90ec1c25366f595661b468692aeb9984f6ecd58ddf275b40f453a69c22cc736"
+    },
+    {
+      "name": "person_H_003",
+      "startFrame": 1,
+      "endFrame": 660,
+      "nz": 4,
+      "frame_count": 660,
+      "annotation_xywh_sha256": "51c8bced4a56148081c4c97e9df90274949811b5953bad2caee67af06794ad45"
+    },
+    {
+      "name": "person_H_004",
+      "startFrame": 1,
+      "endFrame": 968,
+      "nz": 4,
+      "frame_count": 968,
+      "annotation_xywh_sha256": "bd82e6e9ae0ba2ee54bd0c8a69e1ca5849653f8ea6b7b3b89830f293b76c77b1"
+    },
+    {
+      "name": "person_H_006",
+      "startFrame": 1,
+      "endFrame": 690,
+      "nz": 4,
+      "frame_count": 690,
+      "annotation_xywh_sha256": "360aedacb04bc36f5bccb256bdcac25cb0bbcf358367474e3635baf46473f712"
+    },
+    {
+      "name": "person_H_008",
+      "startFrame": 1,
+      "endFrame": 130,
+      "nz": 4,
+      "frame_count": 130,
+      "annotation_xywh_sha256": "49c564fe893e648adc0a40c270107b54bb651df1f68a479cfe3f89cd0710b86b"
+    },
+    {
+      "name": "person_H_009",
+      "startFrame": 1,
+      "endFrame": 425,
+      "nz": 4,
+      "frame_count": 425,
+      "annotation_xywh_sha256": "c638f5e10c54dc4398bc6a26dc3def04c57d6e835f2f1f9007c3323566e9cc08"
+    },
+    {
+      "name": "person_H_011",
+      "startFrame": 1,
+      "endFrame": 720,
+      "nz": 4,
+      "frame_count": 720,
+      "annotation_xywh_sha256": "7d2ac7fd35673f27339e11f5d0d09112e5361a1b5c54553e29186cf965881c0a"
+    },
+    {
+      "name": "person_H_012",
+      "startFrame": 1,
+      "endFrame": 1200,
+      "nz": 4,
+      "frame_count": 1200,
+      "annotation_xywh_sha256": "9a5c3c196ae4436bfc6839120268cbf70549f1c5cd6c581bb83c78d67780788a"
+    },
+    {
+      "name": "person_H_013",
+      "startFrame": 1,
+      "endFrame": 500,
+      "nz": 4,
+      "frame_count": 500,
+      "annotation_xywh_sha256": "62e62ac957c8cb1bc585c8d6dd858468978f0cad5a79fcd7f906419b8a01533d"
+    },
+    {
+      "name": "person_H_014",
+      "startFrame": 1,
+      "endFrame": 246,
+      "nz": 4,
+      "frame_count": 246,
+      "annotation_xywh_sha256": "339a3b8b2e8d7f7f755f8c0abe52dbed0d2f13f7f41728764cc295991bb1ef94"
+    },
+    {
+      "name": "head_H_001",
+      "startFrame": 1,
+      "endFrame": 670,
+      "nz": 4,
+      "frame_count": 670,
+      "annotation_xywh_sha256": "ebc8cfc107de6b1448538086de1d898c93e23f10207e5f95acc5146a8cdb6663"
+    },
+    {
+      "name": "face_H_001",
+      "startFrame": 1,
+      "endFrame": 850,
+      "nz": 4,
+      "frame_count": 850,
+      "annotation_xywh_sha256": "53d0557eb3b629bfcabb60ffc6b7c7aa55575f051715c2caffc52f60b4c70930"
+    },
+    {
+      "name": "leopard_H_001",
+      "startFrame": 1,
+      "endFrame": 208,
+      "nz": 4,
+      "frame_count": 208,
+      "annotation_xywh_sha256": "75cb92d26c09264a20acf49d002717307d5f528c92af9fc8828c189000ec33d9"
+    },
+    {
+      "name": "car_D_002",
+      "startFrame": 1,
+      "endFrame": 160,
+      "nz": 4,
+      "frame_count": 160,
+      "annotation_xywh_sha256": "e58e5375b0891666a73377fdc1fab5104ba819e216e0fdfa7fc762dec02ad37a"
+    },
+    {
+      "name": "dog_D_001",
+      "startFrame": 1,
+      "endFrame": 680,
+      "nz": 4,
+      "frame_count": 680,
+      "annotation_xywh_sha256": "d3a007f28be17645dd3f9535ac190a5fce4a88708cb3c5c4774b0ae5e2531545"
+    },
+    {
+      "name": "boat_D_001",
+      "startFrame": 1,
+      "endFrame": 320,
+      "nz": 4,
+      "frame_count": 320,
+      "annotation_xywh_sha256": "0bb5c82b845b6f588759fb38bb1823dfefa4da68a5b9b99757d914de08ef7667"
+    },
+    {
+      "name": "car_D_004",
+      "startFrame": 1,
+      "endFrame": 400,
+      "nz": 4,
+      "frame_count": 400,
+      "annotation_xywh_sha256": "8fd8121f8363a6cc24b8db9711ab5fcf5189c6a6c7187a7a1f46d967be7a86c5"
+    },
+    {
+      "name": "car_D_005",
+      "startFrame": 1,
+      "endFrame": 930,
+      "nz": 4,
+      "frame_count": 930,
+      "annotation_xywh_sha256": "7c61abe76867f2bd02e625c2698677837c6bb518226278a2014ed8b6274719c5"
+    },
+    {
+      "name": "car_D_007",
+      "startFrame": 1,
+      "endFrame": 830,
+      "nz": 4,
+      "frame_count": 830,
+      "annotation_xywh_sha256": "b6faa88247941032d65b6ab3c593925c7fce6937964d1edf8df0d15d4e36856d"
+    },
+    {
+      "name": "car_D_009",
+      "startFrame": 1,
+      "endFrame": 650,
+      "nz": 4,
+      "frame_count": 650,
+      "annotation_xywh_sha256": "db4c7f90589368ea92f6c7276f9ca895c3ea0a2ef8b2dfa7c1245e9d0c7fbee4"
+    },
+    {
+      "name": "dog_D_002",
+      "startFrame": 1,
+      "endFrame": 280,
+      "nz": 4,
+      "frame_count": 280,
+      "annotation_xywh_sha256": "6999a2912600cd0fcb51007afed7c000d767e6b51c82944eda7de63313f47e7a"
+    },
+    {
+      "name": "person_D_003",
+      "startFrame": 1,
+      "endFrame": 400,
+      "nz": 4,
+      "frame_count": 400,
+      "annotation_xywh_sha256": "c46f8cd155caf2cf8228f6e66a6f8fccb178b74e477ec7e70a46d05f801f4d90"
+    },
+    {
+      "name": "person_D_004",
+      "startFrame": 1,
+      "endFrame": 780,
+      "nz": 4,
+      "frame_count": 780,
+      "annotation_xywh_sha256": "388d8a1f76ef11a37e68a35ea0fbae8a55d42d40940514ad99226cfccbda3608"
+    },
+    {
+      "name": "person_D_006",
+      "startFrame": 1,
+      "endFrame": 316,
+      "nz": 4,
+      "frame_count": 316,
+      "annotation_xywh_sha256": "87617b5acdffcb4194beb9270f2cd776e9dd276d4492fc5e42af2a7f090832a5"
+    },
+    {
+      "name": "person_D_009",
+      "startFrame": 1,
+      "endFrame": 1105,
+      "nz": 4,
+      "frame_count": 1105,
+      "annotation_xywh_sha256": "ffd3424a9d8de9025b18a5fcdb985752acdd461822320f6372bf37dbdd4e4081"
+    },
+    {
+      "name": "person_D_011",
+      "startFrame": 1,
+      "endFrame": 210,
+      "nz": 4,
+      "frame_count": 210,
+      "annotation_xywh_sha256": "bfc760eb364206f42e37a27c054646a902a98145920e5a4c9a2317d3d40d4759"
+    },
+    {
+      "name": "person_D_014",
+      "startFrame": 1,
+      "endFrame": 640,
+      "nz": 4,
+      "frame_count": 640,
+      "annotation_xywh_sha256": "62e78ff8ea5e6ec13b1c1b9021550233d442ba33e2f2ae3fd05e8c942cff55b2"
+    },
+    {
+      "name": "person_D_015",
+      "startFrame": 1,
+      "endFrame": 640,
+      "nz": 4,
+      "frame_count": 640,
+      "annotation_xywh_sha256": "44ed7c8db49713cc244ad5a4b616827e795459184489b5905a76e29fea2224c3"
+    },
+    {
+      "name": "person_D_016",
+      "startFrame": 1,
+      "endFrame": 925,
+      "nz": 4,
+      "frame_count": 925,
+      "annotation_xywh_sha256": "b6d68ff38699efe34d2e2906aeaa816dc6db9ea3ef3452040ca1d2dd94bd55f5"
+    },
+    {
+      "name": "person_D_019",
+      "startFrame": 1,
+      "endFrame": 580,
+      "nz": 4,
+      "frame_count": 580,
+      "annotation_xywh_sha256": "dbc70b9350e7c72e7eedaef6031211a2e7e77538a97e06508dc0d5aff6c7f62d"
+    },
+    {
+      "name": "person_D_020",
+      "startFrame": 1,
+      "endFrame": 520,
+      "nz": 4,
+      "frame_count": 520,
+      "annotation_xywh_sha256": "0be342356371ade35276df353fbcc5a13e1421c7dfca3833c246ae31ef709b6e"
+    },
+    {
+      "name": "person_D_021",
+      "startFrame": 1,
+      "endFrame": 510,
+      "nz": 4,
+      "frame_count": 510,
+      "annotation_xywh_sha256": "dd3f5668e80054807efbb34683d17abbd2464a6194607bd663862efe5af51641"
+    },
+    {
+      "name": "person_D_022",
+      "startFrame": 1,
+      "endFrame": 1490,
+      "nz": 4,
+      "frame_count": 1490,
+      "annotation_xywh_sha256": "10090ffcd333f23531562cb98dd16e1361e0f33ae773f309bc45ed862a8fa7c7"
+    },
+    {
+      "name": "hog_D_001",
+      "startFrame": 1,
+      "endFrame": 470,
+      "nz": 4,
+      "frame_count": 470,
+      "annotation_xywh_sha256": "b5e7d9bfdccfe19982b3a431700b4405514ce7cce7aebf76885e57055092c976"
+    },
+    {
+      "name": "motobiker_D_001",
+      "startFrame": 1,
+      "endFrame": 300,
+      "nz": 4,
+      "frame_count": 300,
+      "annotation_xywh_sha256": "cd92437914e403745bf1001edbba372341e8f0b95ef039807d6b018c80c88118"
+    },
+    {
+      "name": "person_D_023",
+      "startFrame": 1,
+      "endFrame": 650,
+      "nz": 4,
+      "frame_count": 650,
+      "annotation_xywh_sha256": "1734e2c1b0f73b87245154004639420bcfb0564d61735f852879cdecf58c40a5"
+    },
+    {
+      "name": "drone_D_001",
+      "startFrame": 1,
+      "endFrame": 559,
+      "nz": 4,
+      "frame_count": 559,
+      "annotation_xywh_sha256": "60baf69a12b0ba053698ebe9ceb279741508131d051d17b186012267851f5efd"
+    },
+    {
+      "name": "cat_D_001",
+      "startFrame": 1,
+      "endFrame": 455,
+      "nz": 4,
+      "frame_count": 455,
+      "annotation_xywh_sha256": "22eaff8630e58796ab7a16212ffdd33cf4c424248271df8cb6179bfebfaa000b"
+    },
+    {
+      "name": "boy_S_001",
+      "startFrame": 1,
+      "endFrame": 405,
+      "nz": 4,
+      "frame_count": 405,
+      "annotation_xywh_sha256": "13cb2bfd7d6e0128ae91b7a64d9c85c3f971cd39f3af0120dad4aaedd3d6a385"
+    },
+    {
+      "name": "boy_S_002",
+      "startFrame": 1,
+      "endFrame": 1070,
+      "nz": 4,
+      "frame_count": 1070,
+      "annotation_xywh_sha256": "ab81c296aface4fb5439d46511d844397e791082c20f24b4c5f30383a6a80415"
+    },
+    {
+      "name": "bus_S_004",
+      "startFrame": 1,
+      "endFrame": 650,
+      "nz": 4,
+      "frame_count": 650,
+      "annotation_xywh_sha256": "38b719adc58c8d3d27c783663f1fe80c2298462b6a3239757aba0143177d563c"
+    },
+    {
+      "name": "car_S_002",
+      "startFrame": 1,
+      "endFrame": 680,
+      "nz": 4,
+      "frame_count": 680,
+      "annotation_xywh_sha256": "6703a5909941d8cc2a932ca586410ab81f15a19b258342439dd81c213bc95d4b"
+    },
+    {
+      "name": "pickup_S_001",
+      "startFrame": 1,
+      "endFrame": 245,
+      "nz": 4,
+      "frame_count": 245,
+      "annotation_xywh_sha256": "925a92dc17680b723af95f4fb91f29c2575d00d60e40c4104f5fb8f71fc06ee2"
+    },
+    {
+      "name": "car_S_001",
+      "startFrame": 1,
+      "endFrame": 350,
+      "nz": 4,
+      "frame_count": 350,
+      "annotation_xywh_sha256": "ee9f7dde7341565d273c959a45cdfe3c42def3af93d5eca518c3ba705674875f"
+    },
+    {
+      "name": "car_S_003",
+      "startFrame": 1,
+      "endFrame": 105,
+      "nz": 4,
+      "frame_count": 105,
+      "annotation_xywh_sha256": "b8832431ba6f6ef683804374ac79679a1871779fde5d0be9a6822fa9c2e31e03"
+    },
+    {
+      "name": "helicopter_S_001",
+      "startFrame": 1,
+      "endFrame": 530,
+      "nz": 4,
+      "frame_count": 530,
+      "annotation_xywh_sha256": "047c4ceae1b49b4b151273570cdcfbb250335e0d8324a6ddfef05c3d03b7866b"
+    },
+    {
+      "name": "hog_S_001",
+      "startFrame": 1,
+      "endFrame": 720,
+      "nz": 4,
+      "frame_count": 720,
+      "annotation_xywh_sha256": "70a1c28b86595f95872843ff8405f33bd2dc1439f5aaad67d697688bcd917b85"
+    },
+    {
+      "name": "street_S_001",
+      "startFrame": 1,
+      "endFrame": 215,
+      "nz": 4,
+      "frame_count": 215,
+      "annotation_xywh_sha256": "8b79f9b2a9895f05e69f5c0cfd0fc67d2894cd71ecfc93080e7a66b6e106f30c"
+    },
+    {
+      "name": "street_S_002",
+      "startFrame": 1,
+      "endFrame": 191,
+      "nz": 4,
+      "frame_count": 191,
+      "annotation_xywh_sha256": "a84b4801b8e7d1a9fd21930c8b7f9b5ed9fb18b07cdbec47cfd71a9381c551c3"
+    },
+    {
+      "name": "street_S_003",
+      "startFrame": 1,
+      "endFrame": 773,
+      "nz": 4,
+      "frame_count": 773,
+      "annotation_xywh_sha256": "3d44600aba20f8c5dd7f91d1f8b36b3b5faf69e4cfa918639ca5213d0f88ee6d"
+    },
+    {
+      "name": "couple_S_001",
+      "startFrame": 1,
+      "endFrame": 190,
+      "nz": 4,
+      "frame_count": 190,
+      "annotation_xywh_sha256": "3041799eeb3634fdad0cb6c305c205dd6d2647d18abeb631d82392e3ac8c4c44"
+    },
+    {
+      "name": "street_S_004",
+      "startFrame": 1,
+      "endFrame": 310,
+      "nz": 4,
+      "frame_count": 310,
+      "annotation_xywh_sha256": "57d889a94ad4a3a5a3ee5e84c4bcd332af2482b1e8bcce3e7bfc24954517ea97"
+    },
+    {
+      "name": "street_S_005",
+      "startFrame": 1,
+      "endFrame": 680,
+      "nz": 4,
+      "frame_count": 680,
+      "annotation_xywh_sha256": "466344184a4357ff5bb7afd98950d7fac89fda6860e56f184da697e9f39eca13"
+    },
+    {
+      "name": "person_S_001",
+      "startFrame": 1,
+      "endFrame": 800,
+      "nz": 4,
+      "frame_count": 800,
+      "annotation_xywh_sha256": "d58afea88561722beb20670722fb17b832ca3f192a2fba3c55c3aa7a4477a419"
+    },
+    {
+      "name": "person_S_002",
+      "startFrame": 1,
+      "endFrame": 660,
+      "nz": 4,
+      "frame_count": 660,
+      "annotation_xywh_sha256": "d91f0075375b0c5a7f9ee676a25c5fdd21a2ea75de10f2aa08a1b2ee70bf9592"
+    },
+    {
+      "name": "person_S_003",
+      "startFrame": 1,
+      "endFrame": 735,
+      "nz": 4,
+      "frame_count": 735,
+      "annotation_xywh_sha256": "ffd564ec6cd3b9509149e5657326d9d83daa6f4175f610813ae6b4da3a265d11"
+    },
+    {
+      "name": "person_S_006",
+      "startFrame": 1,
+      "endFrame": 610,
+      "nz": 4,
+      "frame_count": 610,
+      "annotation_xywh_sha256": "edda80f79197e2f51cf340dbe6c00f27d7a850b9b9fad7f2a89f2fc6c611535c"
+    },
+    {
+      "name": "person_S_007",
+      "startFrame": 1,
+      "endFrame": 2040,
+      "nz": 4,
+      "frame_count": 2040,
+      "annotation_xywh_sha256": "2943402d9adfb861ee1284383b57158eb3c2e00895cb42e36053afea4bb24f6b"
+    },
+    {
+      "name": "person_S_004",
+      "startFrame": 1,
+      "endFrame": 540,
+      "nz": 4,
+      "frame_count": 540,
+      "annotation_xywh_sha256": "d62926e7c603f1373c3148d3497881a55d082b2704a8078174e13f477e93d890"
+    },
+    {
+      "name": "person_S_005",
+      "startFrame": 1,
+      "endFrame": 620,
+      "nz": 4,
+      "frame_count": 620,
+      "annotation_xywh_sha256": "e1c9f49613b27e25d79a94e6f22e000fa7d60f0ef327c2e1f65b87bcc6c7bb33"
+    },
+    {
+      "name": "person_S_008",
+      "startFrame": 1,
+      "endFrame": 387,
+      "nz": 4,
+      "frame_count": 387,
+      "annotation_xywh_sha256": "5de93ad7ea844d425c23aebd602238f4500afe45fb9168c62a6754d08a571bd5"
+    },
+    {
+      "name": "person_S_009",
+      "startFrame": 1,
+      "endFrame": 350,
+      "nz": 4,
+      "frame_count": 350,
+      "annotation_xywh_sha256": "f76f2097bd0a960e4b4c647dbe75fb308d4e3a6c807033775f643368ca5038fe"
+    },
+    {
+      "name": "person_S_010",
+      "startFrame": 1,
+      "endFrame": 630,
+      "nz": 4,
+      "frame_count": 630,
+      "annotation_xywh_sha256": "a5b1dfa4e559a95944d0bfeec73ecbfbd1cb0f7919397b543dfb724b56a240d4"
+    },
+    {
+      "name": "person_S_011",
+      "startFrame": 1,
+      "endFrame": 615,
+      "nz": 4,
+      "frame_count": 615,
+      "annotation_xywh_sha256": "43d3960359dfefda5aeb60c15ab734c5090791a3f0d03ddd4338ad88e04df916"
+    },
+    {
+      "name": "person_S_012",
+      "startFrame": 1,
+      "endFrame": 550,
+      "nz": 4,
+      "frame_count": 550,
+      "annotation_xywh_sha256": "ac0e939e5ccc9c1af5925cdf4e1df5b4b6d175806e991832f1f754c0b4552a67"
+    },
+    {
+      "name": "person_S_013",
+      "startFrame": 1,
+      "endFrame": 887,
+      "nz": 4,
+      "frame_count": 887,
+      "annotation_xywh_sha256": "2ab05b7508548fa5fa158c161cee9377ddbba8ce04b0db4fec976b6c8d3f1701"
+    },
+    {
+      "name": "person_S_014",
+      "startFrame": 1,
+      "endFrame": 110,
+      "nz": 4,
+      "frame_count": 110,
+      "annotation_xywh_sha256": "668d915bd7eee93b43199744a20247219462b32d5b9cd86e460ab9647ef8a238"
+    },
+    {
+      "name": "person_S_015",
+      "startFrame": 1,
+      "endFrame": 380,
+      "nz": 4,
+      "frame_count": 380,
+      "annotation_xywh_sha256": "80317585beff74558afe0c042fb7cb33a9bf54c62ab3a6564fe2e66bfeccbcbf"
+    },
+    {
+      "name": "person_S_016",
+      "startFrame": 1,
+      "endFrame": 600,
+      "nz": 4,
+      "frame_count": 600,
+      "annotation_xywh_sha256": "8aec4132d50220cd686666070b1d55a0bc1552fd462e3eb09f207ac61b5c2ccd"
+    },
+    {
+      "name": "person_S_017",
+      "startFrame": 1,
+      "endFrame": 570,
+      "nz": 4,
+      "frame_count": 570,
+      "annotation_xywh_sha256": "efd69fe59bab9b4e5ea1e3c1ad9aef43364dcbca479f18c2f084c3413f012812"
+    },
+    {
+      "name": "person_S_018",
+      "startFrame": 1,
+      "endFrame": 500,
+      "nz": 4,
+      "frame_count": 500,
+      "annotation_xywh_sha256": "8baf9b0926abaa5c7f5a738eb309a24167f2ff28eec65867fb8c14a127b3c2a0"
+    },
+    {
+      "name": "person_S_019",
+      "startFrame": 1,
+      "endFrame": 1200,
+      "nz": 4,
+      "frame_count": 1200,
+      "annotation_xywh_sha256": "3d35edb448bede28cd097991a6f35738a592977a0760b00fea70b5bb8239dbc8"
+    },
+    {
+      "name": "truck_S_001",
+      "startFrame": 1,
+      "endFrame": 450,
+      "nz": 4,
+      "frame_count": 450,
+      "annotation_xywh_sha256": "8f8c4fd897c24cb66fa08f915dc903fd3be73944e960cd1f6d5a004c8c69e377"
+    },
+    {
+      "name": "crowd_S_002",
+      "startFrame": 1,
+      "endFrame": 740,
+      "nz": 4,
+      "frame_count": 740,
+      "annotation_xywh_sha256": "f75f3c873b80209b13645e289f1167423f392bd814f980c9e711514cd2ef3571"
+    },
+    {
+      "name": "face_S_001",
+      "startFrame": 1,
+      "endFrame": 890,
+      "nz": 4,
+      "frame_count": 890,
+      "annotation_xywh_sha256": "0a53776364590ace949180ad08ce112c0e21c0e15332675e936ebfe6b071d950"
+    },
+    {
+      "name": "coyote_S_001",
+      "startFrame": 1,
+      "endFrame": 475,
+      "nz": 4,
+      "frame_count": 475,
+      "annotation_xywh_sha256": "a10d522f7c83cda8bffbb716eec2c809c5798d097c7fa1820d09dd4762cb8008"
+    },
+    {
+      "name": "crowd_S_001",
+      "startFrame": 1,
+      "endFrame": 325,
+      "nz": 4,
+      "frame_count": 325,
+      "annotation_xywh_sha256": "677bf6915d50f90a0aae9f2ac2c272df733881f677933d4d96216675312e0ebd"
+    },
+    {
+      "name": "head_S_001",
+      "startFrame": 1,
+      "endFrame": 465,
+      "nz": 4,
+      "frame_count": 465,
+      "annotation_xywh_sha256": "02ce7bab12fd4ee144e06d74feb4af69094f113f887c0afd77102834c8866d13"
+    },
+    {
+      "name": "bus_V_001",
+      "startFrame": 1,
+      "endFrame": 650,
+      "nz": 4,
+      "frame_count": 650,
+      "annotation_xywh_sha256": "f0f50df0ae86eeea16f0fba08a71acf4777f328af1231209cc1d21705ede849e"
+    },
+    {
+      "name": "bus_V_002",
+      "startFrame": 1,
+      "endFrame": 1080,
+      "nz": 4,
+      "frame_count": 1080,
+      "annotation_xywh_sha256": "98d996b0cee0af4da0122f721953eceec2dc1c15158e49a5013f86304557467e"
+    },
+    {
+      "name": "person_V_007",
+      "startFrame": 1,
+      "endFrame": 130,
+      "nz": 4,
+      "frame_count": 130,
+      "annotation_xywh_sha256": "f2620d1e621a33be9ec9e6df1b73e000e5ed4b4c3b091324a3a2c8ef5040f0bd"
+    },
+    {
+      "name": "person_V_008",
+      "startFrame": 1,
+      "endFrame": 800,
+      "nz": 4,
+      "frame_count": 800,
+      "annotation_xywh_sha256": "30f0c00726ac6c6abf12d63e92a333186fcc94095734ff4a0d45c7cdc1beb93d"
+    },
+    {
+      "name": "bus_V_003",
+      "startFrame": 1,
+      "endFrame": 1035,
+      "nz": 4,
+      "frame_count": 1035,
+      "annotation_xywh_sha256": "b33f4e92adf70c61e829580b0ac6dc7e406b4ac7e4a82fbaaa078b4b39d4f04d"
+    },
+    {
+      "name": "bus_V_004",
+      "startFrame": 1,
+      "endFrame": 1599,
+      "nz": 4,
+      "frame_count": 1599,
+      "annotation_xywh_sha256": "55818d554943a01c592992bf5c17cd87c6cefe9e0f9828cf547b2a4a5b78506d"
+    },
+    {
+      "name": "bus_V_005",
+      "startFrame": 1,
+      "endFrame": 2110,
+      "nz": 4,
+      "frame_count": 2110,
+      "annotation_xywh_sha256": "c3d19a1413efeb03ea76a6b63fc124d7f205c06482e28619996c0e8b4ad8f7cf"
+    },
+    {
+      "name": "car_V_001",
+      "startFrame": 1,
+      "endFrame": 1250,
+      "nz": 4,
+      "frame_count": 1250,
+      "annotation_xywh_sha256": "6ee2e6d6e18a45fef25c0220e62ce23d033b6deb6d0d83ff4cc5695c54c22699"
+    },
+    {
+      "name": "car_V_003",
+      "startFrame": 1,
+      "endFrame": 1600,
+      "nz": 4,
+      "frame_count": 1600,
+      "annotation_xywh_sha256": "ca89bd000ca470562c4fe815aaa812e3899d3224b952e6ddb6eedb7708ed615c"
+    },
+    {
+      "name": "car_V_004",
+      "startFrame": 1,
+      "endFrame": 885,
+      "nz": 4,
+      "frame_count": 885,
+      "annotation_xywh_sha256": "32c1a86afa7c9076ccefb87364d79d4f10113858421ee0a43f51a08aec6888a0"
+    },
+    {
+      "name": "car_V_006",
+      "startFrame": 1,
+      "endFrame": 1800,
+      "nz": 4,
+      "frame_count": 1800,
+      "annotation_xywh_sha256": "3ade1b7ff9ef9a4e773a1386752e1f51cdfe21acb916f38a57025ee26440ce8e"
+    },
+    {
+      "name": "car_V_007",
+      "startFrame": 1,
+      "endFrame": 1200,
+      "nz": 4,
+      "frame_count": 1200,
+      "annotation_xywh_sha256": "51824726f674b3d26832b7e005d31f0c931bdd2d6cbe952d8e0bea24d37baf10"
+    },
+    {
+      "name": "car_V_008",
+      "startFrame": 1,
+      "endFrame": 1030,
+      "nz": 4,
+      "frame_count": 1030,
+      "annotation_xywh_sha256": "e73fd54a83770d25691aad5c8d8ebb1dea4693c7b3245b91f540e90b304cd634"
+    },
+    {
+      "name": "car_V_009",
+      "startFrame": 1,
+      "endFrame": 850,
+      "nz": 4,
+      "frame_count": 850,
+      "annotation_xywh_sha256": "5352840ac46f5f1daa78cfd73781f2e6fe3efefa4593a751ee04acb099e0099c"
+    },
+    {
+      "name": "car_V_010",
+      "startFrame": 1,
+      "endFrame": 2070,
+      "nz": 4,
+      "frame_count": 2070,
+      "annotation_xywh_sha256": "f2ea7f73fcffff7a0d3fbc987490fb65988e5e5dc6cd25f6a09ef9275339d833"
+    },
+    {
+      "name": "car_V_011",
+      "startFrame": 1,
+      "endFrame": 1600,
+      "nz": 4,
+      "frame_count": 1600,
+      "annotation_xywh_sha256": "b6681b817982be063d14039ec7703b709ac04fe5f076dce45058dee71564d590"
+    },
+    {
+      "name": "car_V_013",
+      "startFrame": 1,
+      "endFrame": 1090,
+      "nz": 4,
+      "frame_count": 1090,
+      "annotation_xywh_sha256": "6c63884a03e1359d47c37c55764abec904fedbb226373b6226f5b1b99b7520df"
+    },
+    {
+      "name": "car_V_014",
+      "startFrame": 1,
+      "endFrame": 2110,
+      "nz": 4,
+      "frame_count": 2110,
+      "annotation_xywh_sha256": "958f497cd79181b1c29b4ecd8c580fc4c14ca604622ac8a7c66c44d7903c74c0"
+    },
+    {
+      "name": "person_V_002",
+      "startFrame": 1,
+      "endFrame": 285,
+      "nz": 4,
+      "frame_count": 285,
+      "annotation_xywh_sha256": "23e10ff1b257a11b83c445c3f2586ae24c641ebb26ca179d32fddee864bafec3"
+    },
+    {
+      "name": "motobiker_V_001",
+      "startFrame": 1,
+      "endFrame": 1460,
+      "nz": 4,
+      "frame_count": 1460,
+      "annotation_xywh_sha256": "7e929c83bb832819f806a373c58fce07347135f9147be5e640045d9e26cf18f9"
+    }
+  ],
+  "compared_to_existing_tir100": {
+    "common": 95,
+    "only_in_120": [
+      "boat_D_001",
+      "bus_V_001",
+      "car_S_002",
+      "car_V_004",
+      "car_V_006",
+      "car_V_007",
+      "car_V_008",
+      "car_V_011",
+      "car_V_013",
+      "couple_S_001",
+      "crowd_S_002",
+      "face_S_001",
+      "head_H_001",
+      "motobiker_D_001",
+      "motobiker_V_001",
+      "person_D_021",
+      "person_H_001",
+      "person_H_009",
+      "person_H_014",
+      "person_S_002",
+      "person_S_004",
+      "person_S_005",
+      "person_S_009",
+      "person_S_013",
+      "woman_H_001"
+    ],
+    "only_in_100": [
+      "airplane_H_003",
+      "hand_S_001",
+      "head_H_002",
+      "mouse_H_001",
+      "owl_H_001"
+    ]
+  }
+}

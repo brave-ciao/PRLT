@@ -1,0 +1,1015 @@
+{
+  "benchmark": "VTUAV-TIR",
+  "source": "https://github.com/zhang-pengyu/DUT-VTUAV",
+  "commit": "a859ca1866bc86c4ea58e552a3d723e48ab867ff",
+  "toolkit_source": "https://drive.google.com/file/d/1B3609O1TUC9WIfNqevKK-OOlGGiJ11m0/view",
+  "toolkit_size": 586979011,
+  "sequence_count": 250,
+  "st_count": 176,
+  "lt_count": 74,
+  "annotation_box_format": "xywh",
+  "score_stride": 10,
+  "score_offset": 0,
+  "records": [
+    {
+      "name": "pedestrian_234",
+      "split": "st"
+    },
+    {
+      "name": "car_004",
+      "split": "st"
+    },
+    {
+      "name": "car_005",
+      "split": "st"
+    },
+    {
+      "name": "car_006",
+      "split": "st"
+    },
+    {
+      "name": "car_007",
+      "split": "st"
+    },
+    {
+      "name": "car_132",
+      "split": "st"
+    },
+    {
+      "name": "car_012",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_001",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_005",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_006",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_007",
+      "split": "st"
+    },
+    {
+      "name": "car_020",
+      "split": "st"
+    },
+    {
+      "name": "bus_028",
+      "split": "st"
+    },
+    {
+      "name": "elebike_002",
+      "split": "st"
+    },
+    {
+      "name": "elebike_004",
+      "split": "st"
+    },
+    {
+      "name": "truck_004",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_003",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_010",
+      "split": "st"
+    },
+    {
+      "name": "elebike_005",
+      "split": "st"
+    },
+    {
+      "name": "elebike_006",
+      "split": "st"
+    },
+    {
+      "name": "elebike_007",
+      "split": "st"
+    },
+    {
+      "name": "animal_001",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_015",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_016",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_017",
+      "split": "st"
+    },
+    {
+      "name": "elebike_008",
+      "split": "st"
+    },
+    {
+      "name": "car_042",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_019",
+      "split": "st"
+    },
+    {
+      "name": "bus_029",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_020",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_004",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_005",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_006",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_007",
+      "split": "st"
+    },
+    {
+      "name": "car_049",
+      "split": "st"
+    },
+    {
+      "name": "elebike_010",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_008",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_023",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_009",
+      "split": "st"
+    },
+    {
+      "name": "car_053",
+      "split": "st"
+    },
+    {
+      "name": "elebike_011",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_010",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_011",
+      "split": "st"
+    },
+    {
+      "name": "car_056",
+      "split": "st"
+    },
+    {
+      "name": "car_059",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_016",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_017",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_019",
+      "split": "st"
+    },
+    {
+      "name": "car_060",
+      "split": "st"
+    },
+    {
+      "name": "car_061",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_023",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_025",
+      "split": "st"
+    },
+    {
+      "name": "bike_003",
+      "split": "st"
+    },
+    {
+      "name": "bus_026",
+      "split": "st"
+    },
+    {
+      "name": "car_064",
+      "split": "st"
+    },
+    {
+      "name": "car_065",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_026",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_027",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_028",
+      "split": "st"
+    },
+    {
+      "name": "truck_007",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_033",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_034",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_036",
+      "split": "st"
+    },
+    {
+      "name": "car_075",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_027",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_038",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_041",
+      "split": "st"
+    },
+    {
+      "name": "car_077",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_044",
+      "split": "st"
+    },
+    {
+      "name": "bike_005",
+      "split": "st"
+    },
+    {
+      "name": "bike_006",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_046",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_050",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_051",
+      "split": "st"
+    },
+    {
+      "name": "truck_008",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_052",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_053",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_056",
+      "split": "st"
+    },
+    {
+      "name": "bike_008",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_058",
+      "split": "st"
+    },
+    {
+      "name": "bus_021",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_060",
+      "split": "st"
+    },
+    {
+      "name": "car_096",
+      "split": "st"
+    },
+    {
+      "name": "car_097",
+      "split": "st"
+    },
+    {
+      "name": "car_101",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_062",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_064",
+      "split": "st"
+    },
+    {
+      "name": "bus_019",
+      "split": "st"
+    },
+    {
+      "name": "car_109",
+      "split": "st"
+    },
+    {
+      "name": "car_110",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_077",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_079",
+      "split": "st"
+    },
+    {
+      "name": "car_112",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_080",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_088",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_089",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_093",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_095",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_098",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_110",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_111",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_109",
+      "split": "st"
+    },
+    {
+      "name": "bus_014",
+      "split": "st"
+    },
+    {
+      "name": "elebike_018",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_112",
+      "split": "st"
+    },
+    {
+      "name": "bus_012",
+      "split": "st"
+    },
+    {
+      "name": "car_128",
+      "split": "st"
+    },
+    {
+      "name": "elebike_019",
+      "split": "st"
+    },
+    {
+      "name": "car_129",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_113",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_117",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_119",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_120",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_121",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_122",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_123",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_127",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_130",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_032",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_035",
+      "split": "st"
+    },
+    {
+      "name": "ship_001",
+      "split": "st"
+    },
+    {
+      "name": "tricycle_037",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_134",
+      "split": "st"
+    },
+    {
+      "name": "c-vehicle_003",
+      "split": "st"
+    },
+    {
+      "name": "bus_010",
+      "split": "st"
+    },
+    {
+      "name": "car_022",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_136",
+      "split": "st"
+    },
+    {
+      "name": "car_027",
+      "split": "st"
+    },
+    {
+      "name": "bus_001",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_138",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_139",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_142",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_143",
+      "split": "st"
+    },
+    {
+      "name": "bus_004",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_148",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_149",
+      "split": "st"
+    },
+    {
+      "name": "bus_006",
+      "split": "st"
+    },
+    {
+      "name": "bus_007",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_150",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_151",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_152",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_153",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_154",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_155",
+      "split": "st"
+    },
+    {
+      "name": "car_063",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_156",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_161",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_162",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_163",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_164",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_173",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_179",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_183",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_185",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_192",
+      "split": "st"
+    },
+    {
+      "name": "cable_002",
+      "split": "st"
+    },
+    {
+      "name": "car_067",
+      "split": "st"
+    },
+    {
+      "name": "train_003",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_195",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_196",
+      "split": "st"
+    },
+    {
+      "name": "car_072",
+      "split": "st"
+    },
+    {
+      "name": "car_079",
+      "split": "st"
+    },
+    {
+      "name": "car_106",
+      "split": "st"
+    },
+    {
+      "name": "elebike_031",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_209",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_211",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_213",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_215",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_217",
+      "split": "st"
+    },
+    {
+      "name": "car_123",
+      "split": "st"
+    },
+    {
+      "name": "train_004",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_227",
+      "split": "st"
+    },
+    {
+      "name": "excavator_001",
+      "split": "st"
+    },
+    {
+      "name": "elebike_032",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_229",
+      "split": "st"
+    },
+    {
+      "name": "pedestrian_230",
+      "split": "st"
+    },
+    {
+      "name": "car_001",
+      "split": "lt"
+    },
+    {
+      "name": "truck_001",
+      "split": "lt"
+    },
+    {
+      "name": "car_010",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_002",
+      "split": "lt"
+    },
+    {
+      "name": "car_018",
+      "split": "lt"
+    },
+    {
+      "name": "tricycle_002",
+      "split": "lt"
+    },
+    {
+      "name": "elebike_003",
+      "split": "lt"
+    },
+    {
+      "name": "bus_032",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_009",
+      "split": "lt"
+    },
+    {
+      "name": "car_036",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_013",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_014",
+      "split": "lt"
+    },
+    {
+      "name": "bike_001",
+      "split": "lt"
+    },
+    {
+      "name": "elebike_009",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_021",
+      "split": "lt"
+    },
+    {
+      "name": "elebike_012",
+      "split": "lt"
+    },
+    {
+      "name": "elebike_013",
+      "split": "lt"
+    },
+    {
+      "name": "elebike_014",
+      "split": "lt"
+    },
+    {
+      "name": "tricycle_012",
+      "split": "lt"
+    },
+    {
+      "name": "car_054",
+      "split": "lt"
+    },
+    {
+      "name": "car_055",
+      "split": "lt"
+    },
+    {
+      "name": "car_057",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_024",
+      "split": "lt"
+    },
+    {
+      "name": "tricycle_013",
+      "split": "lt"
+    },
+    {
+      "name": "tricycle_015",
+      "split": "lt"
+    },
+    {
+      "name": "tricycle_018",
+      "split": "lt"
+    },
+    {
+      "name": "bus_025",
+      "split": "lt"
+    },
+    {
+      "name": "car_070",
+      "split": "lt"
+    },
+    {
+      "name": "tricycle_025",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_037",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_055",
+      "split": "lt"
+    },
+    {
+      "name": "car_095",
+      "split": "lt"
+    },
+    {
+      "name": "car_073",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_132",
+      "split": "lt"
+    },
+    {
+      "name": "tricycle_036",
+      "split": "lt"
+    },
+    {
+      "name": "elebike_027",
+      "split": "lt"
+    },
+    {
+      "name": "car_008",
+      "split": "lt"
+    },
+    {
+      "name": "car_015",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_137",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_140",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_141",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_144",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_145",
+      "split": "lt"
+    },
+    {
+      "name": "animal_003",
+      "split": "lt"
+    },
+    {
+      "name": "elebike_029",
+      "split": "lt"
+    },
+    {
+      "name": "car_046",
+      "split": "lt"
+    },
+    {
+      "name": "animal_004",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_168",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_178",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_182",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_184",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_187",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_188",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_190",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_194",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_199",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_201",
+      "split": "lt"
+    },
+    {
+      "name": "car_091",
+      "split": "lt"
+    },
+    {
+      "name": "car_103",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_204",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_205",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_207",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_208",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_212",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_214",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_218",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_219",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_220",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_221",
+      "split": "lt"
+    },
+    {
+      "name": "car_119",
+      "split": "lt"
+    },
+    {
+      "name": "car_125",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_226",
+      "split": "lt"
+    },
+    {
+      "name": "car_127",
+      "split": "lt"
+    },
+    {
+      "name": "pedestrian_232",
+      "split": "lt"
+    }
+  ]
+}

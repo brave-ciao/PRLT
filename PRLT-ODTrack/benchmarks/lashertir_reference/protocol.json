@@ -1,0 +1,55 @@
+{
+  "benchmark": "LasHeR-TIR",
+  "version": 2,
+  "scope": "Aligned LasHeR Protocol 2 test split; single IR image modality, complete aligned shared GT",
+  "test_sequences": 245,
+  "train_sequences": 979,
+  "train_test_overlap": [],
+  "official_repository": "https://github.com/BUGPLEASEOUT/LasHeR",
+  "official_commit": "c7ca5dbc96eed90b2b0b7dccc5014d1e611b8399",
+  "official_test_list": "List_for_Protocol2/testingsetList.txt",
+  "test_list_sha256": "16eef326975aacccb94a7e133e8ef0aceb734ece4264caf6f82bc94442c20e46",
+  "test_names_digest": "a6209a68ec312811df87ad9883211ee2c89478a9600dadd66cbc56f6bfb49985",
+  "official_train_list": "List_for_Protocol2/trainingsetList.txt",
+  "train_list_sha256": "ac02d9c820b445b3d7532ed62470ac8f01c09571ff0fb2f1643bdc4fe1f91dcb",
+  "source_structure": "<sequence>/infrared/i000.jpg and <sequence>/init.txt",
+  "network_input": "Only IR frames, converted by the existing ODTrack RGB reader to 3 channels",
+  "GT": "Complete aligned LasHeR init.txt xywh for initialization and scoring; no per-modality txt fallback, modality maximum or RGB image inputs",
+  "annotation_policy": "aligned_lasher_complete_init_xywh_v2",
+  "annotation_reader_reference": {
+    "TBSI_primary_source": "https://github.com/RyanHTR/TBSI/blob/main/lib/test/evaluation/lasherdataset.py",
+    "TBSI_source_sha256": "007a81cdf5964bbc59f993d2f90dbc24049cc36b360cf7f0b8d516ed7358394f",
+    "verified_behavior": "LasHeRDataset._construct_sequence reads <sequence>/init.txt with comma-delimited xywh",
+    "PURA_primary_source": "https://github.com/MelanTech/PURA/blob/main/lib/train/dataset/lasher.py",
+    "advancedredcup_evaluation_GT": {
+      "source": "https://github.com/xuboyue1999/RGBT-Tracking/blob/3613a3cbc9d0626a54c7755a549241f658ef6d46/LasHeR_Toolkit/annos/advancedredcup.txt",
+      "rows": 1411,
+      "columns": 4,
+      "sha256": "868874ea79c30d3ac61518bd01457defb5610ad90e311b68d501c8484a1500f6"
+    }
+  },
+  "sampling": "All frames, no VTUAV stride10 sampling",
+  "metric_reference": {
+    "reference_type": "Public MATLAB toolkit source audit; single-IR GT adapter",
+    "repository": "https://github.com/xuboyue1999/RGBT-Tracking",
+    "commit": "3613a3cbc9d0626a54c7755a549241f658ef6d46",
+    "path": "LasHeR_Toolkit/utils",
+    "files": {
+      "eval_tracker.m": "6c222cd6bc3921487ee1d4c2269f47cde598e9cf05d1968d8e7fc80e1f4bc7ae",
+      "plot_draw_save.m": "31140f726ad1655f7ab226a1ef4dbf1f27ee34cec18cdf3a170d9af8fe9ad4e8",
+      "run_tracker_performance_evaluation.m": "a4a6bc119d10018478fe7d9793ff937edca76766187f553bbcb8290ab73e2d45",
+      "config_sequence.m": "27ad5d0d2a7e65fa1244bbd3abf07acdfc4db3e9f243491ff868c81f56276a46",
+      "calc_rect_int.m": "3505d9f381c7dda085d09201288662a71de9a71effaefc4766bc634b5553ad7c",
+      "calc_seq_err_robust.m": "2ec6d213818ff409a57d372310c76ad23ed8353c448c6516c663aa81929ca7c2"
+    },
+    "notes": [
+      "calc_seq_err_robust: repair nonpositive-size/NaN predictions from previous raw result before first-frame GT override",
+      "xywh inclusive rectangle IoU and center x+(w-1)/2,y+(h-1)/2",
+      "all four GT coordinates >0, otherwise overlap/center/normalized errors -1; all annotation rows in denominator",
+      "eval_tracker: strict IoU > 0:0.05:1, center <=0:50, normalized center <=0:0.01:0.5",
+      "plot_draw_save: nonzero sequence curves are averaged equally; AUC is arithmetic mean of threshold rates",
+      "Explicit NP-AUC and NP@0.20 are both exported; they are not synonyms or silently interchanged",
+      "The primary LasHeR dataset/toolkit link is the official repository; the public MATLAB copy above is documented separately"
+    ]
+  }
+}
