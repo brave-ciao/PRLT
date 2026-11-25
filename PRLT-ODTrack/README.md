@@ -4,7 +4,7 @@ Implementation of **Physics-Inspired Reliability Learning for Robust Thermal Inf
 
 🚀 **Model and Test Results**
 
-[Trained Model & Test Results](https://pan.baidu.com/s/YOUR_SHARE_ID) (Baidu Netdisk, access code `PRLT`)
+[Trained Model & Test Results](https://pan.baidu.com/s/1iqkvyrsnE0GPkj4DE09VlA?pwd=PRLT) (Baidu Netdisk, access code `PRLT`)
 
 ## Installation
 
