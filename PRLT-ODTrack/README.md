@@ -2,6 +2,10 @@
 
 Implementation of **Physics-Inspired Reliability Learning for Robust Thermal Infrared Object Tracking** with the ODTrack-B backbone. Physics-Inspired Thermal Reconstruction (PTR), Uncertainty-Aware Reliability Modeling (URM), and Progressive Capped Reliability Reweighting (PRR) are used during training. Inference uses the ODTrack backbone, temporal tokens, and tracking head.
 
+🚀 **Model and Test Results**
+
+[Trained Model & Test Results](https://pan.baidu.com/s/YOUR_SHARE_ID) (Baidu Netdisk, access code `PRLT`)
+
 ## Installation
 
 The reference environment uses Python 3.10.4 on Linux x86-64 with PyTorch `2.14.0+cu130` and torchvision `0.29.0+cu130`. GPU training and evaluation require an NVIDIA driver compatible with CUDA 13.0. Install the [matching PyTorch wheels](https://pytorch.org/get-started/previous-versions/) before installing the remaining dependencies.
